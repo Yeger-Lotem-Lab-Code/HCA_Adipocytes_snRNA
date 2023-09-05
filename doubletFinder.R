@@ -1,21 +1,19 @@
-suppressPackageStartupMessages(library(Seurat))
-suppressPackageStartupMessages(library(dplyr))
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(plotly))
-suppressPackageStartupMessages(library(future))
-suppressPackageStartupMessages(library(ggpubr))
-suppressPackageStartupMessages(library(DoubletFinder))
+library(Seurat)
+library(DoubletFinder)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+library(ggpubr)
 
-input_path = "/gpfs0/estiyl/users/mziv/immune/samples_29.1/remove_low_quality/"
-output_path = "/gpfs0/estiyl/users/mziv/immune/samples_29.1/DoubletFinder/"
+input_path = ".../lowQuality_removed/"
+output_path = "/doubletFinder_analysis/"
 
-
-basic_analysis <- function(sample_name){
+### ------------ functions ------------- ###
+basic_analysis <- function(sample_name, list2remove){
   obj_seurat <- readRDS(paste(input_path, sample_name,"/", sample_name,".rds", sep=""))
-  #obj_seurat <- subset(obj_seurat, idents = list2remove, invert = T)
-  # obj_seurat[["RNA_snn_res.0.5"]] <- NULL
-  # obj_seurat[["seurat_clusters"]] <- NULL
-  dir.create(paste(output_path, sample_list[i], sep = ""))
+  obj_seurat <- subset(obj_seurat, idents = list2remove, invert = T)
+  obj_seurat[["RNA_snn_res.0.5"]] <- NULL
+  obj_seurat[["seurat_clusters"]] <- NULL
   obj_seurat <- NormalizeData(obj_seurat)
   obj_seurat <- FindVariableFeatures(obj_seurat, nfeatures = 2000)
   obj_seurat <- ScaleData(obj_seurat, features = rownames(obj_seurat))
@@ -23,7 +21,7 @@ basic_analysis <- function(sample_name){
   obj_seurat <- JackStraw(obj_seurat, dims = 50)
   obj_seurat <- ScoreJackStraw(obj_seurat, dims = 1:50, reduction = "pca")
   plt1 <- JackStrawPlot(obj_seurat, dims = 1:50)
-  jpeg(paste(output_path, sample_name,"/", sample_name, "_jackstrawPlot.jpeg", sep = ""),
+  jpeg(paste(output_path, sample_name,"/", sample_name, "_jackstrawPlot.jpeg", sep = ""), 
        width = 1000, height = 750)
   print(plt1)
   dev.off()
@@ -31,46 +29,43 @@ basic_analysis <- function(sample_name){
   saveRDS(obj_seurat, file = (paste(output_path, sample_name,"/", sample_name,".rds", sep="")))
   rm(obj_seurat)
 }
-sample_list <- list.dirs(input_path, full.names = F, recursive = F)
-# for (i in 1:length(sample_list)) {
-#   print(sample_list[i])
-#   basic_analysis(sample_name = sample_list[i])
-# }
 
 cluster_UMAP <- function(sample_name, num_dims){
-  obj_seurat <- readRDS(paste(output_path, sample_name,"/", sample_name,".rds", sep=""))
+  obj_seurat <- readRDS(paste(output_path,"/", sample_name,"/", sample_name,".rds", sep=""))
   obj_seurat <- FindNeighbors(obj_seurat, dims = 1:num_dims)
   obj_seurat <- FindClusters(obj_seurat, resolution = 0.5)
   obj_seurat <- RunUMAP(obj_seurat, dims = 1:num_dims)
   plt2 <- DimPlot(obj_seurat, reduction = "umap", label = T, pt.size = 1.5, label.size = 8)+
     theme(legend.position = "none")
-  jpeg(paste(output_path, sample_name,"/", sample_name, "_umapByCluster.jpeg", sep = ""),
+  jpeg(paste(output_path, sample_name,"/", sample_name, "_umapByCluster.jpeg", sep = ""), 
        width = 1500, height = 1250)
   print(plt2)
   dev.off()
   rm(plt2)
-  plt3 <- VlnPlot(obj_seurat, features = "nCount_RNA", pt.size = 0)+
+  plt3 <- VlnPlot(obj_seurat, features = "nCount_RNA", pt.size = 0)+ 
     geom_boxplot(width=0.3)+
     theme(legend.position = 'none') +
     scale_y_continuous(trans = "log10")
-  plt4 <- VlnPlot(obj_seurat, features = "nFeature_RNA", pt.size = 0)+
+  plt4 <- VlnPlot(obj_seurat, features = "nFeature_RNA", pt.size = 0)+ 
     geom_boxplot(width=0.3)+
     theme(legend.position = 'none') +
     scale_y_continuous(trans = "log10")
+  plt5 <- VlnPlot(obj_seurat, features = c("AQP7", "ADIPOQ"))
+  jpeg(paste(output_path, sample_name,"/", sample_name, "_violinPlots.jpeg", sep = ""), 
+       width = 1000, height = 1800)
   print(plt3+plt4)
   dev.off()
-  jpeg(paste(output_path, sample_name,"/", sample_name, "_vlnPlot.jpeg", sep = ""),
+  jpeg(paste(output_path, sample_name,"/", sample_name, "_vlnPlot_adipocytes.jpeg", sep = ""), 
        width = 2000, height = 1000)
-  #print(plt5)
+  print(plt5)
   dev.off()
-  rm( plt4, plt3)
+  rm(plt5, plt4, plt3)
   saveRDS(obj_seurat, file = (paste(output_path,sample_name,"/", sample_name,".rds", sep="")))
   rm(obj_seurat)
 }
-dim_list <- c(29, 28, 49, 34)
 
 find_pk <- function(sample_name, num_dims){
-  obj_seurat <- readRDS(paste(output_path, sample_name,"/", sample_name,".rds", sep=""))
+  obj_seurat <- readRDS(paste(input_path, sample_name,"/", sample_name,".rds", sep=""))
   sweep.res.list <- paramSweep_v3(obj_seurat, PCs = 1:num_dims, sct = FALSE)
   sweep.stats <- summarizeSweep(sweep.res.list, GT = FALSE)
   bcmvn <- find.pK(sweep.stats)
@@ -84,41 +79,38 @@ find_pk <- function(sample_name, num_dims){
   return(list2return)
 }
 
-# # lists-------
+# lists-------
+sample_list <- list.dirs(input_path, full.names = F, recursive = F)
 
+# dims after removing low-quality:
+dim_list <- list()
 
-# 
-# # dims after removing low-quality:
-dim_list <- list(29, 32,25,33)
-
-# 
 DB_params <- data.frame(row.names = c("pK", "nExp_poi", "nExp_poi.adj"))
-# 
-# # loops-------
-# # run after removing low-quality clusters
+
+# loops-------
+# run after removing low-quality clusters
 for (i in 1:length(sample_list)) {
   print(sample_list[i])
-  DB_params[[sample_list[i]]] <- find_pk(sample_name = sample_list[i], num_dims = dim_list[[i]])
+  DB_params[[sample_list[[i]]]] <- find_pk(sample_name = sample_list[i], num_dims = dim_list[[i]])
 }
 
+
 DB_params <- data.frame(lapply(DB_params, as.character), stringsAsFactors=FALSE)
-write.csv(DB_params, file = paste(output_path, "DB_params.csv", sep = ""), row.names = TRUE)
-DB_params <- read.csv(file = paste0(output_path, "DB_params.csv"), header = T, row.names = 1)
 
 for (i in 1:length(sample_list)) {
   print(sample_list[i])
-  dir.create(paste0(output_path,"/", sample_list[i], "/"))
+  dir.create(paste0(output_path, sample_list[i], "/"))
   obj_seurat <- readRDS(paste(input_path, sample_list[i],"/", sample_list[i],".rds", sep=""))
-  obj_seurat <- doubletFinder_v3(obj_seurat, PCs = 1:(dim_list[[i]]), pN = 0.25, pK = DB_params[[1,i]],
+  obj_seurat <- doubletFinder_v3(obj_seurat, PCs = 1:(dim_list[[i]]), pN = 0.25, pK = DB_params[[1,i]], 
                                  nExp = DB_params[[2,i]], reuse.pANN = FALSE, sct = FALSE)
-  obj_seurat <- doubletFinder_v3(obj_seurat, PCs = 1:(dim_list[[i]]), pN = 0.25, pK = DB_params[[1,i]], nExp = DB_params[[3,i]],
+  obj_seurat <- doubletFinder_v3(obj_seurat, PCs = 1:(dim_list[[i]]), pN = 0.25, pK = DB_params[[1,i]], nExp = DB_params[[3,i]], 
                                  reuse.pANN = paste0("pANN_0.25_", as.character(DB_params[[1,i]]),"_", as.character(DB_params[[2,i]])), sct = FALSE)
   saveRDS(obj_seurat, file = (paste(output_path, sample_list[i],"/", sample_list[i],".rds", sep="")))
   rm(obj_seurat)
 }
 
 # list the cells with high doublet score
-#1. load each object
+#1. load each object 
 #2. write csv table with; cell names, score and DF classification
 #3. write csv for clusters percentage of doublets
 #4. figures of umap colored by clssification1 and classification2 and by score
@@ -146,7 +138,7 @@ for (i in 1:length(sample_list)) {
        width = 3000, height = 3000)
   print(ggarrange(plt1,plt2,plt3,plt4, ncol=2, nrow=2))
   dev.off()
-  rm(obj_seurat,DF_summary, pANN, DF_classification, DF.classification1, DF.classification2,plt1,plt2,plt3,plt4)
+  rm(obj_seurat,DF_summary, pANN, DF_classification, DF.classification1, DF.classification2,plt1,plt2,plt3,plt4) 
 }
 
 # read both tables from last loop:
@@ -154,9 +146,9 @@ for (i in 1:length(sample_list)) {
 # remove clusters with doublets>=65%
 # clear object and save
 # export csv table with summary
-# 
-input_path ="/gpfs0/estiyl/users/mziv/immune/samples_29.1/DoubletFinder/"
-output_path = "/gpfs0/estiyl/users/mziv/immune/samples_29.1/Doublets_removed/"
+
+input_path = ".../doubletFinder_analysis/"
+output_path = ".../doubletFinder_analysis/doublets_removed/"
 summary_DF <- data.frame(row.names = c("num cells before", "clusters removed", "num cells removed", "num cells after"))
 
 for (i in 1:length(sample_list)) {
@@ -174,7 +166,7 @@ for (i in 1:length(sample_list)) {
   }
   num_cells_removed <- c(col2add[[1]] - dim(seurat_obj)[2])
   col2add <- c(col2add, num_cells_removed, dim(seurat_obj)[2])
-  summary_DF[[sample_list[i]]] <- col2add
+  summary_DF[[sample_list[[i]]]] <- col2add
   #clear seurat object and save:
   seurat_obj <- DietSeurat(seurat_obj, counts = T, data = T, scale.data = F)
   seurat_obj@meta.data$RNA_snn_res.0.8 <- NULL
@@ -193,4 +185,3 @@ for (i in 1:length(sample_list)) {
 summary_DF <- apply(summary_DF, 2, as.character)
 row.names(summary_DF) <- c("num cells before", "clusters removed", "num cells removed", "num cells after")
 write.csv(summary_DF, file = paste(output_path, "summary_DF.csv", sep = ""), row.names = TRUE)
-
