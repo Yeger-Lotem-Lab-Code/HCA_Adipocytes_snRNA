@@ -1,0 +1,38 @@
+﻿Lipid Metabolism,Angiogenesis,Ribosomal,ECM,Adaptive immune,Innate immune
+positive regulation of lipid localization,blood vessel morphogenesis,peptide biosynthetic process,basement membrane organization,immune system process,macrophage activation
+positive regulation of lipid transport,blood vessel development,structural constituent of ribosome,extracellular matrix organization,immune system development,phagocytosis
+positive regulation of lipid metabolic process,vasculature development,ribosomal subunit,extracellular structure organization,inflammatory response,immune response-activating cell surface receptor signaling pathway
+regulation of lipid metabolic process,positive regulation of endothelial cell migration,protein targeting to ER,external encapsulating structure organization,T cell activation,positive regulation of phagocytosis
+fatty acid metabolic process,regulation of endothelial cell migration,establishment of protein localization to endoplasmic reticulum,extracellular matrix assembly,alpha-beta T cell activation involved in immune response,myeloid leukocyte activation
+lipid transport,regulation of blood vessel endothelial cell migration,protein localization to endoplasmic reticulum,basement membrane assembly,alpha-beta T cell differentiation involved in immune response,regulation of leukocyte apoptotic process
+lipid biosynthetic process,sprouting angiogenesis,translational initiation,extracellular matrix structural constituent,"CD4-positive, alpha-beta T cell differentiation involved in immune response",immune response-activating signal transduction
+lipid droplet (2.42),endothelial cell migration,translation,extracellular matrix structural constituent conferring tensile strength,T-helper cell differentiation,immune response-regulating cell surface receptor signaling pathway
+triglyceride metabolic process,blood vessel endothelial cell migration,ribosomal large subunit biogenesis,extracellular matrix,positive regulation of T-helper cell differentiation,activation of immune response
+neutral lipid metabolic process,angiogenesis,amide biosynthetic process,,lymphocyte activation,myeloid cell activation involved in immune response
+cellular lipid catabolic process,endothelium development,ribosome assembly,,T cell differentiation,granulocyte activation
+fatty acid oxidation,endothelial cell differentiation,ribosome biogenesis,,adaptive immune response,neutrophil activation
+regulation of fatty acid metabolic process,regulation of vasculature development,ribosomal small subunit biogenesis,,lymphocyte activation involved in immune response,innate immune response
+lipid oxidation,,ribosomal large subunit assembly,,immune effector process,myeloid cell homeostasis
+,,rRNA metabolic process,,lymphocyte differentiation,immune system process
+,,rRNA processing,,T cell activation involved in immune response,immune system development
+,,ribonucleoprotein complex assembly,,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,inflammatory response
+,,ribonucleoprotein complex biogenesis,,immune response,regulation of inflammatory response
+,,ribonucleoprotein complex subunit organization,,T cell differentiation involved in immune response,positive regulation of immune system process
+,,translational elongation,,alpha-beta T cell activation,immune response
+,,,,alpha-beta T cell differentiation,
+,,,,"positive regulation of CD4-positive, alpha-beta T cell differentiation",
+,,,,"regulation of CD4-positive, alpha-beta T cell activation",
+,,,,immunoglobulin production,
+,,,,regulation of T cell differentiation,
+,,,,"CD4-positive, alpha-beta T cell differentiation",
+,,,,lymphocyte proliferation,
+,,,,regulation of lymphocyte proliferation,
+,,,,T-helper 17 type immune response,
+,,,,T-helper 17 cell differentiation,
+,,,,immune response-activating cell surface receptor signaling pathway,
+,,,,antigen receptor-mediated signaling pathway,
+,,,,T cell receptor signaling pathway,
+,,,,Fc-gamma receptor signaling pathway,
+,,,,T cell selection,
+,,,,B cell activation,
+,,,,B cell proliferation,
