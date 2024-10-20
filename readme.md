@@ -1,7 +1,7 @@
 # Human subcutaneous and visceral adipocyte atlases uncover classical and non-classical adipocytes and depot-specific patterns
 
 This repository contains data, code, and analysis as described in the paper ״Human subcutaneous and visceral adipocyte atlases uncover classical and non-classical adipocytes and depot-specific patterns".
-Link to data: (https://cellxgene.cziscience.com/collections/ba84c7ba-8d8c-4720-a76e-3ee37dc89f0b)
+
 ## Table of contents
 * [Article results](#article-results) 
     * [Pipeline code](#pipeline-code)
@@ -21,9 +21,8 @@ Plots were generated as part of the pipeline via R.
 
 | Figure    | Panel | Script                                                                                                                   |
 |---------- |-------|------------------------------------------------------------------------------------------------------------------------- |
-| Figure1   | A     | build_aneuploidy_table_GISTIC.py (pipeline)                                                                              |
-| Figure2   | A-D   | shap_analysis.py (pipline)                                                                                               |
-| Figure2   | E     | correlation_analysis.py (pipline)                                                                                        |
+| Figure1-Single-nuclei atlases of human subcutaneous (hSAT) and visceral (hVAT) adipose tissues.   | A-D   | Fig1.R                                                                                                                   |
+| Figure2   | A-G   | Fig2.R                                                                                              |
 | Figure3   | A-E   | CCL_main.py (pipline)                                                                                                    |
 | Figure3   | F     | correlation_analysis.py (pipline)                                                                                        |
 | Figure4   | B     | Fig4B_13q_gain_prevalence_barplot                                                                                        |
@@ -59,7 +58,7 @@ Plots were generated as part of the pipeline via R.
 
 
 #### Data availability
-The dataset is available on Zenode - https://zenodo.org/record/8199048
+The dataset is available on Zenode - (https://cellxgene.cziscience.com/collections/ba84c7ba-8d8c-4720-a76e-3ee37dc89f0b)
 Analysis pipeline files according to order of usage:
 1. raw_objects.R - create Seurat objects per sample after CellBender AND CellRanger filtration for ambient RNA, and nFeature (=>200) and mitoRNA cutoff (=<20%). 
 2. basic_analysis.R - perform clustering, annotation of adipocyte clusters and create violin plots for nCounts and nFeatures per cluster.
