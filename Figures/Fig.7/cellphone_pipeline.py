@@ -1,3 +1,9 @@
+"""
+For this analysis, we first created files compatible with the CellphoneDB pipeline (barcodes, features (genes), expression matrix) from our anndata object.
+We also supplied the relevant metadata (annotations) for this analysis.
+"""
+
+
 import os
 import anndata as ad
 import pandas as pd
