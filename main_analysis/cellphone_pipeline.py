@@ -7,7 +7,7 @@ import scanpy as sc
 from scipy import io
 from cellphonedb.src.core.methods import cpdb_statistical_analysis_method
 
-## Make from your h5ad data compatible files for CellphoneDB analysis
+## Make your h5ad data compatible files for CellphoneDB analysis
 
 adata = ad.read_h5ad('vis_data.h5ad')
 
@@ -27,7 +27,7 @@ metadata = pd.read_csv('metadata.csv', index_col=0)
 
 #CellphoneDB requires a metadata with the barcodes as index and one column of metadata - relevant clusters annotation
 
-metadata = metadata['new_detailed']
+metadata = metadata['annotations']
 metadata.to_csv('metadata_2columns.csv')
 
 ##Run CellphoneDB analysis - input path should be a folder (!!!) with mtx, features, barcodes files only. You should also supply path to the database itself and the metadata
@@ -46,7 +46,7 @@ deconvoluted, means, pvalues, significant_means = cpdb_statistical_analysis_meth
 a = kpy.plot_cpdb_heatmap(
         adata=adata,
         pvals=pvals,
-        celltype_key="new_detailed",
+        celltype_key="annotations",
         figsize = (5,5),
         title = "Sum of significant interactions",
         return_tables=True
