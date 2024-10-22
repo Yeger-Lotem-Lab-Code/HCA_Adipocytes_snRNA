@@ -20,42 +20,42 @@ Data to generate each panel is presented in "Data source file.xlsx" and in their
 Plots were generated as part of the pipeline via R.
 
 | Figure    | Panel | Scripts                                                                                                                   |
-|---------- |-------|------------------------------------------------------------------------------------------------------------------------- |
-|Main_figs_info| | Main_figs.info.R (includes necessary libraries , seurat objects )                                                                                                               
-| Figure1-Single-nuclei atlases of human subcutaneous (hSAT) and visceral (hVAT) adipose tissues.   | A-D   | Fig1.R                                                                                                                   |
-| Figure2   | All   | Fig2.R                                                                                              |
-                                                                                                   |
-| Figure3   |    All| GSEA_enrichment.R--> gsea_color_new.py-->Fig3.R                                                                                        |
-| Figure4   |   All  | Fig4.R                                                                                        |
-|           | D,F   | violin_plots.R                                                                                                           |
-|           | H,J   | Fig4H-J_boxplots                                                                                                         |
-| Figure5   | A     | correlation_analysis.py (pipline)                                                                                        |
-| Figure5   | D,E   | violin_plots.R                                                                                                           |
-|           | G,H   | Fig5G-H_cooccurrence.R                                                                                                   |
-| FigureS3  | A-C   | Correlation analysis: article_results\Figure S3\correlation analysis.py                                                  |
-|           |       | Plots: article_results\Figure S3\Fig_S3_plots.r                                                                          |
-| FigureS4  | A-B   | curves - compare_models.py (pipline)                                                                                     |
-|           |       | boxplot - article_results\Figure S4\models_performance.R                                                                 |
-| FigureS5  | A,B   | shap_analysis.py (pipeline)                                                                                              |
-| FigureS6  |       | correlation_analysis.py (pipline)                                                                                        |   
-| FigureS7  |       | construct dataset with other threshold: src\other_threshold_percentage.py                                                |  
-|           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset | 
-| FigureS8  | A     | parameter_tunning.py (pipline)                                                                                           |
-| FigureS8  | B-C   | For model performance and SHAP analysis, run compare_models.py and SHAP analysis with best hyperpatameter per model      |
-| FigureS9  | A     | curves - compare_models.py (pipline)                                                                                     |
-|           |       | boxplot - article_results\Figure S4\models_performance.R                                                                 |
-| FigureS9  | B-C   | shap_analysis.py (pipeline)                                                                                              |
-| FigureS10 | A-B   | article_results\Figure S10\top_driver_analysis.py                                                                        |
-| FigureS11 | A     | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset | 
-| FigureS11 | B-C   | article_results\Figure S11\whole_chromosome_main.py                                                                      |
-| FigureS12 |       | article_results\src\boxplots.R                                                                                           |
-| FigureS13 | A     | article_results\src\bar_plots.R                                                                                          |
-| FigureS14 | C     | article_results\src\boxplots.R                                                                                           |
-| FigureS15 | A     | article_results\src\bar_plots.R                                                                                          |
-|           | D     | article_results\src\boxplots.R                                                                                           |
-| FigureS16 | A     | article_results\src\bar_plots.R                                                                                          |
-|           | D     | article_results\src\boxplots.R                                                                                           |
-| FigureS17 | A-B   | paralogs_analysis.py (pipline)         
+|-----------|-------|----------------------------------------------------------------------------------------------------------------------------|
+| Main_figs_info |       | Main_figs.info.R (includes necessary libraries, Seurat objects)                                                       |
+| Figure1 - Single-nuclei atlases of human subcutaneous (hSAT) and visceral (hVAT) adipose tissues | A-D   | Fig1.R                      |
+| Figure2   | All   | Fig2.R                                                                                                                     |
+| Figure3   | All   | GSEA_enrichment.R → gsea_color_new.py → Fig3.R                                                                             |
+| Figure4   | All   | Fig4.R                                                                                                                     |
+|           | D, F  | violin_plots.R                                                                                                             |
+|           | H, J  | Fig4H-J_boxplots                                                                                                           |
+| Figure5   | A     | correlation_analysis.py (pipeline)                                                                                         |
+|           | D, E  | violin_plots.R                                                                                                             |
+|           | G, H  | Fig5G-H_cooccurrence.R                                                                                                     |
+| FigureS3  | A-C   | Correlation analysis: article_results/Figure S3/correlation_analysis.py                                                    |
+|           |       | Plots: article_results/Figure S3/Fig_S3_plots.r                                                                             |
+| FigureS4  | A-B   | Curves - compare_models.py (pipeline)                                                                                       |
+|           |       | Boxplot - article_results/Figure S4/models_performance.R                                                                    |
+| FigureS5  | A, B  | shap_analysis.py (pipeline)                                                                                                 |
+| FigureS6  |       | correlation_analysis.py (pipeline)                                                                                          |
+| FigureS7  |       | Construct dataset with other threshold: src/other_threshold_percentage.py                                                   |
+|           |       | To find the best model and plot SHAP, run compare_models.py and SHAP analysis with the corresponding dataset                |
+| FigureS8  | A     | parameter_tuning.py (pipeline)                                                                                              |
+|           | B-C   | For model performance and SHAP analysis, run compare_models.py and SHAP analysis with the best hyperparameter per model     |
+| FigureS9  | A     | Curves - compare_models.py (pipeline)                                                                                       |
+|           |       | Boxplot - article_results/Figure S4/models_performance.R                                                                    |
+|           | B-C   | shap_analysis.py (pipeline)                                                                                                 |
+| FigureS10 | A-B   | article_results/Figure S10/top_driver_analysis.py                                                                           |
+| FigureS11 | A     | To find the best model and plot SHAP, run compare_models.py and SHAP analysis with the corresponding dataset                |
+|           | B-C   | article_results/Figure S11/whole_chromosome_main.py                                                                         |
+| FigureS12 |       | article_results/src/boxplots.R                                                                                              |
+| FigureS13 | A     | article_results/src/bar_plots.R                                                                                             |
+| FigureS14 | C     | article_results/src/boxplots.R                                                                                              |
+| FigureS15 | A     | article_results/src/bar_plots.R                                                                                             |
+|           | D     | article_results/src/boxplots.R                                                                                              |
+| FigureS16 | A     | article_results/src/bar_plots.R                                                                                             |
+|           | D     | article_results/src/boxplots.R                                                                                              |
+| FigureS17 | A-B   | paralogs_analysis.py (pipeline)                                                                                             |
+    
 
 
 #### Data availability
