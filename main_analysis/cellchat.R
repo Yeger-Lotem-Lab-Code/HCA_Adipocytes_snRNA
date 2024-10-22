@@ -6,16 +6,15 @@ suppressMessages(library(future))
 suppressMessages(library(ggalluvial))
 suppressMessages(library(NMF))
 
-
-# seurat_object <- readRDS(paste0(input_path, "adipo10.rds"))
+#upload your seurat object
+seurat_object <- readRDS(paste0(input_path, "adipo10.rds"))
 
 # # Extract the CellChat input files from a Seurat V3 object
 
-# data.input <- GetAssayData(seurat_object, assay = "RNA", slot = "data") # normalized data matrix
-# labels <- Idents(seurat_object)
-# meta <- data.frame(group = labels, row.names = names(labels)) # create a dataframe of the cell labels
-# 
- Create a CellChat object
+data.input <- GetAssayData(seurat_object, assay = "RNA", slot = "data") # normalized data matrix
+labels <- Idents(seurat_object)
+meta <- data.frame(group = labels, row.names = names(labels)) # create a dataframe of the cell labels
+# Create a CellChat object
 cellchat_vis11 <- createCellChat(object = data.input, meta = meta, group.by = "group")
 rm(seurat_object, data.input, labels, meta)
 
@@ -29,58 +28,39 @@ CellChatDB.use <- CellChatDB #use all cellchatDB
 cellchat_vis11@DB <- CellChatDB.use
 # 
 # # Preprocessing the expression data for cell-cell communication analysis
-# cellchat_vis11 <- subsetData(cellchat_vis11) # This step is necessary even if using the whole database
-# # future::plan("multiprocess", workers = 4) # do parallel
-# plan(cluster)
-# options(future.globals.maxSize = 10000 * 1024^2)
-# plan()
-# availableCores()
+cellchat_vis11 <- subsetData(cellchat_vis11) # This step is necessary even if using the whole database
+
 # 
-# cellchat_vis11 <- identifyOverExpressedGenes(cellchat_vis11)
-# cellchat_vis11 <- identifyOverExpressedInteractions(cellchat_vis11)
+cellchat_vis11 <- identifyOverExpressedGenes(cellchat_vis11)
+cellchat_vis11 <- identifyOverExpressedInteractions(cellchat_vis11)
 # # project gene expression data onto PPI (Optional: when running it, USER should set `raw.use = FALSE` in
 # # the function `computeCommunProb()` in order to use the projected data)
-# cellchat_vis11 <- projectData(cellchat_vis11, PPI.human)
+ cellchat_vis11 <- projectData(cellchat_vis11, PPI.human)
 # 
 # # Compute the communication probability and infer cellular communication network
-# cellchat_vis11 <- computeCommunProb(cellchat_vis11, population.size = TRUE)
+cellchat_vis11 <- computeCommunProb(cellchat_vis11, population.size = TRUE)
 # # Filter out the cell-cell communication if there are only few number of cells in certain cell groups
-# cellchat_vis11 <- filterCommunication(cellchat_vis11, min.cells = 10)
+cellchat_vis11 <- filterCommunication(cellchat_vis11, min.cells = 10)
 # 
 # #Extract the inferred cellular communication network as a data frame
-# df.net <- subsetCommunication(cellchat_vis11, slot.name= "netP")
-# write.csv(df.net, file = paste0(output_path, "df.adipo_sub_path_cellchat_adipo_vis_5_8_netp.csv"))
-# df.net <- subsetCommunication(cellchat_vis11)
+df.net <- subsetCommunication(cellchat_vis11, slot.name= "netP")
+write.csv(df.net, file = paste0(output_path, "df.adipo_sub_path_cellchat_adipo_vis_5_8_netp.csv"))
+df.net <- subsetCommunication(cellchat_vis11)
 # 
-# saveRDS(cellchat_vis11, file = paste0(output_path, "cellchat_adipo_vis_5_8.rds"))
-# write.csv(df.net, file = paste0(output_path, "df.adipo_sub_path_cellchat_adipo_vis_5_8.csv"))
-# rm(CellChatDB, df.net)
-# # ########maya_new
-# # input_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/18_7/vis/"
-# # output_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/18_7/vis/"
-# #
-# input_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/adipo/vis/"
-# output_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/adipo/vis/"
-input_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/31_7/vis/immune_adipo//"
-output_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/31_7/vis/immune_adipo/"
-# input_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/29_7/sub/immune_adipo/"
-# output_path = "/gpfs0/estiyl/users/mziv/Adipose_new_w_o_sc3369/sub_vis_merge/cellchat/29_7/sub/immune_adipo/"
-# 
-# cellchat_adipo <- readRDS(file = paste0(input_path, "cellchat_adipo_vis_31_7.rds"))
-# df.net_adipo <- read.csv(file = paste0(input_path, "df.adipo_sub_path_cellchat_adipo_vis_31_7.csv"), header = T, row.names = 1)
+saveRDS(cellchat_vis11, file = paste0(output_path, "cellchat_adipo_vis_5_8.rds"))
+write.csv(df.net, file = paste0(output_path, "df.adipo_sub_path_cellchat_adipo_vis_5_8.csv"))
+rm(CellChatDB, df.net)
 
-# cellchat_adipo <- readRDS(file = paste0(input_path, "cellchat_adipo_sub_5_8.rds"))
-# df.net_adipo <- read.csv(file = paste0(input_path, "df.adipo_sub_path_cellchat_adipo_sub_5_8.csv"), header = T, row.names = 1)
 
-# # cellchat_adipo <- readRDS(file = paste0(input_path, "cellchat_adipo_sub_5_8.rds"))
-# #df.net_adipo <- read.csv(file = paste0(input_path, "df.adipo_sub_path_cellchat_adipo_sub_5_8.csv"), header = T, row.names = 1)
+input_path = "insert_your_input_path"
+output_path = "insert_your_output_path"
+
 cellchat_adipo <- readRDS(file = paste0(input_path, "cellchat_adipo_vis_5_8.rds"))
 df.net_adipo <- read.csv(file = paste0(input_path, "df.adipo_sub_path_cellchat_adipo_vis_5_8.csv"), header = T, row.names = 1)
-# continue:
+
 cellchat_adipo <- computeCommunProbPathway(cellchat_adipo)
 labels.levels= c("VA1","VA2","VA3", "VA4", "VA5", "VA6", "VA7", "VA8", "V_Mac1", "V_Mac2", "V_Monocytes","V_Pre-Myeloid/Mac","V_Pre-Myeloid","V_S_Mast cells", "V_T cells/NK", "V_B cells")
-#labels.levels= c("VA1","VA2","VA3", "VA4", "VA5", "VA6", "VA7", "VA8")
-#labels.levels= c("SA1","SA2","SA3", "SA4", "SA5", "SA6", "SA7", "S_Mac1", "S_Mac2","S_Mac3","S_Mac4","S_Mac5", "S_Dendritic cells", "V_S_Mast cells", "S_T cells 1", "S_T cells 2", "S_B cells" )
+
 cellchat_adipo <-updateClusterLabels(
   cellchat_adipo,
   old.cluster.name = NULL,
@@ -88,23 +68,7 @@ cellchat_adipo <-updateClusterLabels(
   new.order = labels.levels,
   new.cluster.metaname = "new.labels"
 )
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Monocytes' ] <- 'Monocytes' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Mac1' ] <- 'Mac 1' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Mac2' ] <- 'Mac 2' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Pre-Myeloid/Ma' ] <- 'Pre-Myeloid 2' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Pre-Myeloid' ] <- 'Pre-Myeloid 1' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Mast cells' ] <- 'Mast cells' 
-levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_T cells/NK' ] <- 'T cells' 
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mac1' ] <- 'Mac 1'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mac2' ] <- 'Mac 2'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mac3' ] <- 'Mac 3'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mac4' ] <- 'Mac 4'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mac5' ] <- 'Mac 5'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Mast cells' ] <- 'Mast cells'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_Dendritic cells' ] <- 'Dendritic cells'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_T cells 1' ] <- 'T cells 1'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_T cells 2' ] <- 'T cells 2'
-# levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='S_B cells' ] <- 'B cells'
+#levels(cellchat_adipo@meta$labels)[levels(cellchat_adipo@meta$labels) =='V_Monocytes' ] <- 'Monocytes' 
 
 
 
@@ -116,88 +80,199 @@ a="ADIPONECTIN"
 
 #visualize:
 
-# groupSize <- as.numeric(table(cellchat_adipo@idents))
-# #par(mfrow = c(1,1), xpd=TRUE)
-# pdf(file = paste(output_path ,"Number of interactions.pdf"))
-# 
-# #jpeg(paste(output_path , "Number of interactions.jpeg", sep = ""),
-# #  width = 1000, height = 750)
-# netVisual_circle(cellchat_adipo@net$count, vertex.weight = groupSize, weight.scale = T,
-#                  label.edge= F, title.name = "Number of interactions")
-# dev.off()
-# pdf(file = paste(output_path ,"Interaction weights_strength.pdf"))
-# 
-# #jpeg(paste(output_path , "Interaction weights_strength_sa1.jpeg", sep = ""),
-# #    width = 1000, height = 750)
-# netVisual_circle(cellchat_adipo@net$weight, vertex.weight = groupSize, weight.scale = T,
-#                  label.edge= F, title.name = "Interaction weights/strength")
-# #netVisual_circle(cellchat_adipo@net$weight, sources.use="SA1", vertex.weight = groupSize, weight.scale = T,
-# #              label.edge= F, title.name = "Interaction weights/strength")
-# dev.off()
+## FIGURE 7:
+# Compute the network centrality scores
+cellchat_adipo <- netAnalysis_computeCentrality(cellchat_adipo, slot.name = "netP")
+# the slot 'netP' means the inferred intercellular communication network of signaling pathways
+# Visualize the computed centrality scores using heatmap, allowing ready identification of major signaling roles of cell groups
 
-#
-# jpeg(paste(output_path , "Interaction weights_strength_sa1_idents_t.jpeg", sep = ""),
-#      width = 1000, height = 750)
-# netVisual_circle(cellchat_adipo@net$weight, vertex.weight = groupSize, weight.scale = T,
-#                  label.edge= F, title.name = "Interaction weights/strength")
+pdf(file = paste(output_path , "Aadipoq_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ADIPONECTIN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path ,a, "netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = a, width = 8,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path , "CD45_netAnalysis_signalingRole_network.pdf"))
+
+
+
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'CD45', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path , "cd22_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'CD22', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path , "laminin_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'LAMININ', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "Adgre5_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ADGRE5', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "Angptl_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANGPTL', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "Annexin_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANNEXIN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "vegf_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'VEGF', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "ANGPT_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANGPT', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "collagen_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'COLLAGEN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path , "VISFATIN_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'VISFATIN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+pdf(file = paste(output_path , "SEMA3_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'SEMA3', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "leptin_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'LEP', width = 8,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "il16_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'IL16', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+
+pdf(file = paste(output_path , "Annexin_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANNEXIN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "COLLAGEN_netAnalysis_signalingRole_network.pdf"))
+
+#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
+#    width = 1000, height = 750)
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'COLLAGEN', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+pdf(file = paste(output_path , "sema3_netAnalysis_signalingRole_network.pdf"))
+
+
+netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'SEMA3', width = 14,
+                                  height = 2.5, font.size = 10)
+dev.off()
+
+
+##Until here FIG.7
+
+## FIG S21-ANNEXIN signaling network in hSAT and hVAT:
+
+
 #visualize seperatly:
-# mat <- cellchat_adipo@net$weight
+ mat <- cellchat_adipo@net$weight
 # par(mfrow = c(1,1), xpd=TRUE)
-# for (i in 1:nrow(mat)) {
-#   mat2 <- matrix(0, nrow = nrow(mat), ncol = ncol(mat), dimnames = dimnames(mat))
-#   mat2[i, ] <- mat[i, ]
-#   pdf(file = paste(output_path , i,".pdf",  sep = ""))
-#   #jpeg(paste(output_path , i,".jpeg", sep = ""),
-#   # width = 1000, height = 750)
-#   netVisual_circle(mat2, vertex.weight = groupSize, weight.scale = T, arrow.size = 0.05,
-#                    edge.weight.max = max(mat), title.name = rownames(mat)[i])
-#   dev.off()
-# }
+for (i in 1:nrow(mat)) {
+  mat2 <- matrix(0, nrow = nrow(mat), ncol = ncol(mat), dimnames = dimnames(mat))
+  mat2[i, ] <- mat[i, ]
+  pdf(file = paste(output_path , i,".pdf",  sep = ""))
+  jpeg(paste(output_path , i,".jpeg", sep = ""),
+  width = 1000, height = 750)
+  netVisual_circle(mat2, vertex.weight = groupSize, weight.scale = T, arrow.size = 0.05,
+                   edge.weight.max = max(mat), title.name = rownames(mat)[i])
+  dev.off()
+}
 
 # # show all the significant interactions (L-R pairs) from some cell groups (defined by 'sources.use') to other cell groups (defined by 'targets.use')
-# # show all the interactions sending from Inflam.FIB
-#
-# #
-# #
-# pdf(file = paste(output_path ,"mastcells_heatmap.pdf"))
-# netVisual_heatmap(cellchat_adipo,sources.use="V_S_Mast cells", color.heatmap = "Reds")
-# dev.off()
+
+pdf(file = paste(output_path ,"mastcells_heatmap.pdf"))
+netVisual_heatmap(cellchat_adipo,sources.use="Mast cells", color.heatmap = "Reds")
+dev.off()
 # show all the significant interactions (L-R pairs) associated with certain signaling pathways
-# pdf(file = paste(output_path ,"smac2_adipocytres_chord signaling cells.pdf"))
-# netVisual_chord_gene(cellchat_adipo, targets.use = c("SA1","SA2","SA3", "SA4", "SA5","SA6","SA7"), sources.use = "S_Mac2", lab.cex=1)
-# #netVisual_chord_gene(cellchat_adipo, targets.use = c("VA1","VA2","VA3", "VA4", "VA5","VA6","VA7","VA8"), sources.use = "V_Mac1", lab.cex=2, legend.pos.x = 8)
-# dev.off()
-# #
-# pdf(file = paste(output_path ,"vmaast_adipocytres_chord signaling cells.pdf"))
-# #netVisual_chord_gene(cellchat_adipo, targets.use = c("VA1","VA2","VA3", "VA4", "VA5","VA6","VA7","VA8"), sources.use = "V_S_Mast cells", lab.cex=1, legend.pos.x = 8)
-# netVisual_chord_gene(cellchat_adipo, targets.use = c("SA1","SA2","SA3", "SA4", "SA5","SA6","SA7"), sources.use = "V_S_Mast cells", lab.cex=1)
-# 
-# dev.off()
-#
-# jpeg(paste(output_path , "netvisual_sa1.jpeg", sep = ""),
-#      width = 1000, height = 750)
-# netVisual_barplot(cellchat_adipo,comparison=c("VA1", "VA2"), title.name = "netVisual_barplot")
-# dev.off()
+pdf(file = paste(output_path ,"mac2_adipocytres_chord signaling cells.pdf"))
+netVisual_chord_gene(cellchat_adipo, targets.use = c("SA1","SA2","SA3", "SA4", "SA5","SA6","SA7"), sources.use = "S_Mac2", lab.cex=1)
+dev.off()
+
+jpeg(paste(output_path , "netvisual.jpeg", sep = ""),
+     width = 1000, height = 750)
+netVisual_barplot(cellchat_adipo,comparison=c("VA1", "VA2"), title.name = "netVisual_barplot")
+dev.off()
 print (cellchat_adipo@netP$pathways)
 par(mfrow = c(1,1))
 
 
-# pdf(file = paste(output_path ,a,"_vertex.receiver.pdf"))
+
+jpeg(paste(output_path , a,"_vertex.receiver.jpeg", sep = ""),
+ width = 1000, height = 750)
+netVisual_aggregate(cellchat_adipo, signaling = a,  vertex.receiver = seq(1,4))
+dev.off()
 # 
-# #jpeg(paste(output_path , a,"_vertex.receiver.jpeg", sep = ""),
-# #  width = 1000, height = 750)
-# netVisual_aggregate(cellchat_adipo, signaling = a,  vertex.receiver = seq(1,4))
-# dev.off()
+pdf(file = paste(output_path ,a,"_plotGeneExpression.pdf"))
+plotGeneExpression(cellchat_adipo, signaling = a)
+dev.off()
 # 
-# pdf(file = paste(output_path ,a,"_plotGeneExpression.pdf"))
-# plotGeneExpression(cellchat_adipo, signaling = a)
-# dev.off()
-# 
-# pdf(file = paste(output_path ,a,"_circle.pdf"))
-# #jpeg(paste(output_path ,a, "_circle.jpeg", sep = ""),
-# #    width = 1000, height = 750)
-# netVisual_aggregate(cellchat_adipo, signaling = a, layout = "circle")
-# dev.off()
+pdf(file = paste(output_path ,a,"_circle.pdf"))
+netVisual_aggregate(cellchat_adipo, signaling = a, layout = "circle")
+dev.off()
+
+#adjust colors to your labels
 # cols_mapped_adipo <- c(
 #   "Adipocytes 1" = "#6600CC",
 #   "Adipocytes 2" = "#6600CC",
@@ -211,38 +286,16 @@ par(mfrow = c(1,1))
 #   "B cells" = "#CD853F",
 #   "T.NK" = "#00CC00"
 # )
-# cols_mapped_adipo <- c(
-#   "SA1" = "#6600CC",
-#   "SA2" = "#6600CC",
-#   "SA3" = "#6600CC",
-#   "SA4" = "#6600CC",
-#   "SA5" = "#6600CC",
-#   "SA6" = "#6600CC",
-#   "SA7" = "#6600CC",
-#   "Macrophage1" = "#CC0066",
-#   "Macrophage2" = "#CC0066",
-#   "Macrophage3" = "#CC0066",
-#   "Macrophage4" = "#CC0066",
-#   "Immune" = "#CC0066",
-#   "DC" = "#ff7f00",
-#   "Mast_cell" = "#FFB266",
-#   
-#   "B_cells" = "#CD853F",
-#   "T_cell1" = "#00CC00",
-#   "T_cell2" = "#00CC00"
-# )
-# pdf(file = paste(output_path ,"cd45_mast_source_color_chord.pdf"))
-# #jpeg(paste(output_path , a,"color_chord.jpeg", sep = ""),
-# #     width = 1000, height = 750)
-# #netVisual_aggregate(cellchat_adipo,color.use= cols_mapped_adipo,  sources.use="S_Mast cells"	, signaling = a, layout = "chord")
-# netVisual_aggregate(cellchat_adipo,sources.use="V_S_Mast cells", signaling = 'CD45', layout = "chord")
-# dev.off()
-# pdf(file = paste(output_path ,"laminin_mast_source_color_chord.pdf"))
-# #jpeg(paste(output_path , a,"color_chord.jpeg", sep = ""),
-# #     width = 1000, height = 750)
-# #netVisual_aggregate(cellchat_adipo,color.use= cols_mapped_adipo,  sources.use="S_Mast cells"	, signaling = a, layout = "chord")
-# netVisual_aggregate(cellchat_adipo,sources.use="V_S_Mast cells", signaling = 'LAMININ', layout = "chord")
-# dev.off()
+
+pdf(file = paste(output_path ,"cd45_mast_source_color_chord.pdf"))
+netVisual_aggregate(cellchat_adipo,color.use= cols_mapped_adipo,  sources.use="S_Mast cells"	, signaling = a, layout = "chord")
+dev.off()
+pdf(file = paste(output_path ,"laminin_mast_source_color_chord.pdf"))
+#jpeg(paste(output_path , a,"color_chord.jpeg", sep = ""),
+#     width = 1000, height = 750)
+#netVisual_aggregate(cellchat_adipo,color.use= cols_mapped_adipo,  sources.use="S_Mast cells"	, signaling = a, layout = "chord")
+netVisual_aggregate(cellchat_adipo,sources.use="V_S_Mast cells", signaling = 'LAMININ', layout = "chord")
+dev.off()
 # pdf(file = paste(output_path ,"annexin_mast_source_color_chord.pdf"))
 # #jpeg(paste(output_path , a,"color_chord.jpeg", sep = ""),
 # #     width = 1000, height = 750)
@@ -502,145 +555,7 @@ dev.off()
 # netAnalysis_contribution(cellchat_adipo, signaling = a)
 # dev.off()
 
-# Compute the network centrality scores
-cellchat_adipo <- netAnalysis_computeCentrality(cellchat_adipo, slot.name = "netP")
-# the slot 'netP' means the inferred intercellular communication network of signaling pathways
-# Visualize the computed centrality scores using heatmap, allowing ready identification of major signaling roles of cell groups
 
-pdf(file = paste(output_path , "Aadipoq_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ADIPONECTIN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path ,a, "netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = a, width = 8,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path , "CD45_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'CD45', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path , "cd22_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'CD22', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path , "laminin_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'LAMININ', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "Adgre5_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ADGRE5', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "Angptl_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANGPTL', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "Annexin_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANNEXIN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "vegf_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'VEGF', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "ANGPT_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANGPT', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "collagen_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'COLLAGEN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path , "VISFATIN_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'VISFATIN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-pdf(file = paste(output_path , "SEMA3_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'SEMA3', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "leptin_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'LEP', width = 8,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "il16_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'IL16', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-
-
-pdf(file = paste(output_path , "Annexin_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'ANNEXIN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "COLLAGEN_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'COLLAGEN', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
-pdf(file = paste(output_path , "sema3_netAnalysis_signalingRole_network.pdf"))
-
-#jpeg(paste(output_path ,a, "netAnalysis_signalingRole_network.jpeg", sep = ""),
-#    width = 1000, height = 750)
-netAnalysis_signalingRole_network(cellchat_adipo, signaling = 'SEMA3', width = 14,
-                                  height = 2.5, font.size = 10)
-dev.off()
 
 
 library(ggalluvial)

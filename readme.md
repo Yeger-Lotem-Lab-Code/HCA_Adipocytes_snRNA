@@ -19,13 +19,14 @@ The pipeline code can be reviewed and used by running main.py from src folder.
 Data to generate each panel is presented in "Data source file.xlsx" and in their respective "article_results/Figure X" folder.
 Plots were generated as part of the pipeline via R.
 
-| Figure    | Panel | Script                                                                                                                   |
+| Figure    | Panel | Scripts                                                                                                                   |
 |---------- |-------|------------------------------------------------------------------------------------------------------------------------- |
+|Main_figs_info| | Main_figs.info.R (includes necessary libraries , seurat objects )                                                                                                               
 | Figure1-Single-nuclei atlases of human subcutaneous (hSAT) and visceral (hVAT) adipose tissues.   | A-D   | Fig1.R                                                                                                                   |
-| Figure2   | A-G   | Fig2.R                                                                                              |
-| Figure3   | A-E   | CCL_main.py (pipline)                                                                                                    |
-| Figure3   | F     | correlation_analysis.py (pipline)                                                                                        |
-| Figure4   | B     | Fig4B_13q_gain_prevalence_barplot                                                                                        |
+| Figure2   | All   | Fig2.R                                                                                              |
+                                                                                                   |
+| Figure3   |    All| GSEA_enrichment.R--> gsea_color_new.py-->Fig3.R                                                                                        |
+| Figure4   |   All  | Fig4.R                                                                                        |
 |           | D,F   | violin_plots.R                                                                                                           |
 |           | H,J   | Fig4H-J_boxplots                                                                                                         |
 | Figure5   | A     | correlation_analysis.py (pipline)                                                                                        |
