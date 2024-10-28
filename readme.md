@@ -1,6 +1,6 @@
 # Human subcutaneous and visceral adipocyte atlases uncover classical and non-classical adipocytes and depot-specific patterns
 
-This repository contains data, code, and analysis as described in the paper ״Human subcutaneous and visceral adipocyte atlases uncover classical and non-classical adipocytes and depot-specific patterns".
+This repository contains code for the analyses described in the paper ״Human subcutaneous and visceral adipocyte atlases uncover classical and non-classical adipocytes and depot-specific patterns".
 
 ## Table of contents
 * [Article results](#article-results) 
