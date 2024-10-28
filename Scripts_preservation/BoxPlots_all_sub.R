@@ -1,6 +1,6 @@
 library(ggplot2)
 library(reshape2)
-
+###
 table <-  read.csv(file = paste0("/gpfs0/estiyl/users/tomul/sc_5/1/1.1/maxFractions.csv"))
 table <- data.frame(table$maxFractions)
 colnames(table) <-c( "table_1.1")
