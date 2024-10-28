@@ -15,7 +15,7 @@ Results are found in their respective "Figure X" folder.
 The main code was written in R. It includes data processing, quality control, clustering and annotating the code file are under the "main_analysis" folder with the description of the files. 
 
 #### Figures
-Data to generate each panel is deposited on Cellxgene if it requires the seurat/cellchat objects, and relevant CSV files are inside the figure's folder.
+Data to generate each panel is deposited on CELLxGENE if it requires the seurat/cellchat objects, and relevant CSV files are inside the figure's folder.
 Plots were generated as part of the pipeline via R.
 
 | Figure    | Panel    | Scripts                                                                                  |
@@ -36,5 +36,5 @@ Plots were generated as part of the pipeline via R.
 
 
 #### Data availability
-The dataset is available on Cellxgene - (https://cellxgene.cziscience.com/collections/ba84c7ba-8d8c-4720-a76e-3ee37dc89f0b)
+The dataset is available on CELLxGENE - (https://cellxgene.cziscience.com/collections/ba84c7ba-8d8c-4720-a76e-3ee37dc89f0b)
 
