@@ -5,7 +5,7 @@ This repository contains code for the analyses described in the paper ״Human su
 ## Table of contents
 * [Article results](#article-results) 
     * [Pipeline code](#pipeline-code)
-    * [Plots](#plots)
+    * [Figures](#Figures)
 * [Data availability](#Data-availability)
 
 ### Article results
