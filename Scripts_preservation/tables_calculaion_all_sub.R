@@ -1,4 +1,4 @@
-# this script gives a table for each cell that tells the original cluster and the new cluster
+# this script gives a table for each cell that tells the original cluster and the new cluster.
 for (i in 1:10) {
   for (j in 1:10) {
 object <-  readRDS(file = paste0("/gpfs0/estiyl/users/tomul/vis_10/",i,"/",i,".",j,"/asses_object_", i, ".", j, ".rds"))
