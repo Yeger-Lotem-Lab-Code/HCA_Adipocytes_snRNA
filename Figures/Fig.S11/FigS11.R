@@ -4,11 +4,11 @@ library(dplyr)
 library(ggplot2)
 library(ggridges)
 
-input_path <- "/Users/mayaziv/OneDrive - post.bgu.ac.il/Adipose/Summarized_objects_5_3/seurat_objects/"
-output_path <- "/Users/mayaziv/OneDrive - post.bgu.ac.il/Adipose/Summarized_objects_5_3/seurat_objects/"
+input_path <- ".."
+output_path <- "..."
 
 obj_seurat <- readRDS(paste0(output_path,'adipo_vissc_diet.rds', sep=""))
-gene_data <- read.csv('/Users/mayaziv/OneDrive - post.bgu.ac.il/mito_genes.csv', 
+gene_data <- read.csv('github/HCA_Adipocytes_snRNA/Figures/FIG.S11/mito_genes.csv', 
                       na.strings = c("", "NA"))  # Treat empty values as NA
 
 # Remove rows where all columns are NA (i.e., completely empty rows)
