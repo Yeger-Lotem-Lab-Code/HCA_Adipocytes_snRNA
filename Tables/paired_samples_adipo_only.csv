@@ -1,0 +1,11 @@
+cluster,variable,value,Tissue,Age,Sex,BMI,fBMI,fage,FPG,LDL,TG,HDL,CRP,HbA1c,SysBP
+Adipocytes,3382,19.51,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,12.4,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,22.07,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,17.88,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,13.2,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Adipocytes,3382,32.85,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,33.04,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,36.33,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,36.1,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,23,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95

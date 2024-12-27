@@ -30,9 +30,21 @@ seurat_metadata <- obj_seurat@meta.data
 ##First part check VAT adipocytes compared to SAT adipocytes:
 # Calculate the median percent.nuc_mito for each cluster
 median_percent_nuc_mito <- seurat_metadata %>%
-  group_by(adipo_ann) %>%  # Replace seurat_clusters with your cluster column name
+  group_by(com_ann) %>%  # Replace seurat_clusters with your cluster column name
   summarize(median_percent = median(percent.nuc_mito, na.rm = TRUE))
 
+median_percent_mt <- seurat_metadata %>%
+  group_by(com_ann) %>%  # Replace seurat_clusters with your cluster column name
+  summarize(median_percent = median(percent.mt, na.rm = TRUE))
+
+library(dplyr)
+
+# Create a new grouping variable for Cytotoxic and Effector categories
+median_percent_mt <- median_percent_mt %>%
+  mutate(group = ifelse(grepl("Cytotoxic", com_ann), "Cytotoxic", "Effector"))
+
+# Perform Mann-Whitney U Test
+wilcox.test(median_percent ~ group, median_percent_mt = median_percent_mt)
 
 # Split data into two groups: clusters starting with 'S' and 'V'
 group_S <- subset(median_percent_nuc_mito, grepl("^S", adipo_ann))$median_percent
@@ -109,13 +121,33 @@ if (va6_median > other_va_median) {
 
 ## Third part create a ridge plot for all the nuclear  encoded genes:
 
-p1 <-  ggplot(seurat_metadata, aes(x = percent.nuc_mito , y = adipo_ann,  fill=adipo_ann)) +  
+
+obj_seurat_subset <- subset(obj_seurat, subset = com_ann %in% c("Cytotoxic_old", "Cytotoxic_MCI", "Cytotoxic_young", "Effector_old", "Effector_young", "Effector_MCI"))
+
+# Extract the filtered metadata if needed
+seurat_metadata <- obj_seurat_subset@meta.data
+  
+p1 <-  ggplot(seurat_metadata, aes(x = percent.nuc_mito , y = com_ann,  fill=com_ann)) +  
   scale_y_discrete(limits = rev) +
   geom_density_ridges(scale = 0.9, alpha=0.3) +
   theme_ridges(center_axis_labels = TRUE) +
   scale_x_continuous(limits = c(0, 10))  # Set x-axis range from 0 to 5
 #scale_fill_manual(values = colors10) #+
 # facet_wrap(~orig.ident)
-jpeg(paste0(input_path, "try_adipo_all_mt_nuc_ridge_levels.jpeg"), width = 3000, height = 3000, bg = "transparent",res=300)
+jpeg(paste0(output_path, "cyto_effec_com_ann_mt_nuc_ridge_levels.jpeg"), width = 3000, height = 3000, bg = "transparent",res=300)
 print(p1)
 dev.off()
+
+p1 <-  ggplot(seurat_metadata, aes(x = percent.mt , y = com_ann,  fill=com_ann)) +  
+  scale_y_discrete(limits = rev) +
+  geom_density_ridges(scale = 0.9, alpha=0.3) +
+  theme_ridges(center_axis_labels = TRUE) +
+  scale_x_continuous(limits = c(0, 10))  # Set x-axis range from 0 to 5
+#scale_fill_manual(values = colors10) #+
+# facet_wrap(~orig.ident)
+jpeg(paste0(output_path, "cyto_effec_com_ann_mt__ridge_levels.jpeg"), width = 3000, height = 3000, bg = "transparent",res=300)
+print(p1)
+dev.off()
+
+group_S <- subset(median_percent_nuc_mito, grepl("^Cyto", com_ann))$median_percent
+group_V <- subset(median_percent_nuc_mito, grepl("^Effec", com_ann))$median_percent

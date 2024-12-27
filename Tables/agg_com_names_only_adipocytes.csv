@@ -1,0 +1,162 @@
+cluster,variable,value,Tissue,Age,Sex,BMI,fBMI,fage,FPG,LDL,TG,HDL,CRP,HbA1c,SysBP
+Adipocytes,3313,16.82,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Adipocytes,3350,15.8,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Adipocytes,3357,21.57,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Adipocytes,3382,19.51,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,12.4,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,22.07,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,17.88,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,13.2,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Adipocytes,3431,26.28,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Adipocytes,4263,22.15,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+Adipocytes,3382,32.85,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,33.04,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,36.33,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,36.1,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,23,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Adipocytes,1033,15.84,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Adipocytes,1079,15.27,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Adipocytes,1082,16.57,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Adipocytes,1116,21.86,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Adipocytes,1162,21.25,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Adipocytes,1190,23.44,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Adipocytes,1220,21.17,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Adipocytes,1274,19.23,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Adipocytes,1282,16.86,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Adipocytes,1323,19.98,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Adipocytes,1384,23.73,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Adipocytes,1394,23.09,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Adipocytes,1397,22.93,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Adipocytes,1410,21.68,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Adipocytes,1424,21.11,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Adipocytes,1459,20.31,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Adipocytes,1461,20.88,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Adipocytes,1467,18.52,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Adipocytes,1468,19.09,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Adipocytes,1480,21.51,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Adipocytes,1491,21.98,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Adipocytes,1493,20.22,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Adipocytes,1564,22.64,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Adipocytes,1595,18.44,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Adipocytes,1620,14.59,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Adipocytes,1693,20.16,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Adipocytes,1719,21.78,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Adipocytes,1721,21.78,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Adipocytes,1766,22.92,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Adipocytes,1777,20.49,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Adipocytes,1791,20.3,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Adipocytes,1799,19.57,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Adipocytes,1805,20.22,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Adipocytes,1814,19.5,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Adipocytes,1829,22.51,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Adipocytes,1831,18.69,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Adipocytes,1852,18.17,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Adipocytes,1857,17.79,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Adipocytes,1883,20.58,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Adipocytes,1914,19.19,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1930,14.65,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1938,22.17,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1940,23.81,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1990,17.62,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Adipocytes,1993,21.03,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Adipocytes,2002,22.53,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Adipocytes,230,24.25,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Adipocytes,2338,18.18,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Adipocytes,2475,24.07,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Adipocytes,2522,20.61,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Adipocytes,2568,20.83,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Adipocytes,2569,20.39,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Adipocytes,2621,17.2,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Adipocytes,2760,19.59,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Adipocytes,2773,15.61,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Adipocytes,278,23.18,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Adipocytes,349,26.37,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Adipocytes,351,20.15,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Adipocytes,368,21.34,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Adipocytes,458,24.05,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Adipocytes,461,16.37,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Adipocytes,519,22.25,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Adipocytes,615,18.74,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Adipocytes,675,21.71,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Adipocytes,685,21.15,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Adipocytes,695,22.9,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Adipocytes,713,19.61,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Adipocytes,739,18.21,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Adipocytes,810,20.54,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Adipocytes,811,18.39,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Adipocytes,909,20,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Adipocytes,949,20.47,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Adipocytes,991,22.35,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Adipocytes,1033,33.48,Deconvoluted subcutaneous,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Adipocytes,1079,24,Deconvoluted subcutaneous,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Adipocytes,1082,24.39,Deconvoluted subcutaneous,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Adipocytes,1116,64.09,Deconvoluted subcutaneous,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Adipocytes,1162,27.15,Deconvoluted subcutaneous,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Adipocytes,1190,26.81,Deconvoluted subcutaneous,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Adipocytes,1220,54.62,Deconvoluted subcutaneous,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Adipocytes,1274,59.49,Deconvoluted subcutaneous,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Adipocytes,1282,42.6,Deconvoluted subcutaneous,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Adipocytes,1323,33.8,Deconvoluted subcutaneous,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Adipocytes,1384,32.68,Deconvoluted subcutaneous,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Adipocytes,1394,47.27,Deconvoluted subcutaneous,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Adipocytes,1397,50.56,Deconvoluted subcutaneous,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Adipocytes,1410,27.58,Deconvoluted subcutaneous,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Adipocytes,1424,31.88,Deconvoluted subcutaneous,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Adipocytes,1459,45.34,Deconvoluted subcutaneous,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Adipocytes,1461,41.01,Deconvoluted subcutaneous,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Adipocytes,1467,35.19,Deconvoluted subcutaneous,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Adipocytes,1468,36.42,Deconvoluted subcutaneous,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Adipocytes,1480,32.58,Deconvoluted subcutaneous,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Adipocytes,1491,29.38,Deconvoluted subcutaneous,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Adipocytes,1493,32.23,Deconvoluted subcutaneous,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Adipocytes,1564,26.33,Deconvoluted subcutaneous,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Adipocytes,1595,61.47,Deconvoluted subcutaneous,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Adipocytes,1620,41.51,Deconvoluted subcutaneous,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Adipocytes,1693,50.01,Deconvoluted subcutaneous,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Adipocytes,1719,56.21,Deconvoluted subcutaneous,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Adipocytes,1721,49.66,Deconvoluted subcutaneous,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Adipocytes,1766,61.69,Deconvoluted subcutaneous,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Adipocytes,1777,46.44,Deconvoluted subcutaneous,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Adipocytes,1791,39.03,Deconvoluted subcutaneous,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Adipocytes,1799,29.52,Deconvoluted subcutaneous,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Adipocytes,1805,25.16,Deconvoluted subcutaneous,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Adipocytes,1814,38.1,Deconvoluted subcutaneous,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Adipocytes,1829,39.41,Deconvoluted subcutaneous,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Adipocytes,1831,45.75,Deconvoluted subcutaneous,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Adipocytes,1852,30.02,Deconvoluted subcutaneous,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Adipocytes,1857,59.16,Deconvoluted subcutaneous,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Adipocytes,1883,42.67,Deconvoluted subcutaneous,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Adipocytes,1914,60.68,Deconvoluted subcutaneous,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1930,65.39,Deconvoluted subcutaneous,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1938,46.5,Deconvoluted subcutaneous,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1940,38.12,Deconvoluted subcutaneous,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1990,45.85,Deconvoluted subcutaneous,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Adipocytes,1993,39.85,Deconvoluted subcutaneous,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Adipocytes,2002,24.78,Deconvoluted subcutaneous,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Adipocytes,230,46.32,Deconvoluted subcutaneous,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Adipocytes,2338,23.18,Deconvoluted subcutaneous,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Adipocytes,2475,26.32,Deconvoluted subcutaneous,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Adipocytes,2522,26.89,Deconvoluted subcutaneous,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Adipocytes,2568,23.21,Deconvoluted subcutaneous,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Adipocytes,2569,24.59,Deconvoluted subcutaneous,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Adipocytes,2621,24.82,Deconvoluted subcutaneous,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Adipocytes,2760,22.77,Deconvoluted subcutaneous,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Adipocytes,2773,37.08,Deconvoluted subcutaneous,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Adipocytes,278,45.31,Deconvoluted subcutaneous,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Adipocytes,349,47.33,Deconvoluted subcutaneous,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Adipocytes,351,56.98,Deconvoluted subcutaneous,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Adipocytes,368,42.32,Deconvoluted subcutaneous,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Adipocytes,458,23.87,Deconvoluted subcutaneous,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Adipocytes,461,38.44,Deconvoluted subcutaneous,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Adipocytes,519,32.75,Deconvoluted subcutaneous,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Adipocytes,615,25.06,Deconvoluted subcutaneous,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Adipocytes,675,42.6,Deconvoluted subcutaneous,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Adipocytes,685,56.08,Deconvoluted subcutaneous,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Adipocytes,695,41.62,Deconvoluted subcutaneous,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Adipocytes,713,27.66,Deconvoluted subcutaneous,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Adipocytes,739,23.8,Deconvoluted subcutaneous,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Adipocytes,810,24,Deconvoluted subcutaneous,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Adipocytes,811,54.82,Deconvoluted subcutaneous,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Adipocytes,909,24.73,Deconvoluted subcutaneous,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Adipocytes,949,43.95,Deconvoluted subcutaneous,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Adipocytes,991,26.87,Deconvoluted subcutaneous,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA

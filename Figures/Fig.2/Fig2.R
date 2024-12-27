@@ -73,7 +73,7 @@ jpeg(paste0(output_path, "adipo5_heatmap.jpeg"), width = 3000, height = 3400, qu
 print(p1)
 dev.off()
 
-# fig 2D: dounletFinder scores + MT-gene content:
+# fig 2D: doubletFinder scores + MT-gene content:
 v1 <- VlnPlot(adipo10, features = "percent.mt",pt.size = 0)+ ylim(0,20) + scale_fill_manual(values = cols_mapped_vis_adipo)+
   stat_summary(fun.y = median, geom='point', size = 6, colour = "black", shape = 95)
 jpeg(paste0(output_path, "adipo10_percent.mt_vln.jpeg"), width = 3000, height = 3000, bg = "transparent",res=300)

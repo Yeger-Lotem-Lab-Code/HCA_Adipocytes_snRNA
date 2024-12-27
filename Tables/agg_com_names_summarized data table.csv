@@ -1,0 +1,811 @@
+cluster,variable,value,Tissue,Age,Sex,BMI,fBMI,fage,FPG,LDL,TG,HDL,CRP,HbA1c,SysBP
+Adipocytes,3313,16.82,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+ASPC,3313,10.36,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Mesothelial,3313,12.34,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Pre-mesothelial,3313,40.33,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Adipocytes,3350,15.8,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+ASPC,3350,23.76,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Mesothelial,3350,5.34,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Pre-mesothelial,3350,5.1,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Adipocytes,3357,21.57,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+ASPC,3357,17.92,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Mesothelial,3357,4.06,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Pre-mesothelial,3357,23.79,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Adipocytes,3382,19.51,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+ASPC,3382,13.93,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Mesothelial,3382,9.46,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Pre-mesothelial,3382,36.89,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,12.4,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+ASPC,3384,25.91,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Mesothelial,3384,8.57,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Pre-mesothelial,3384,33.36,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,22.07,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+ASPC,3387,25.78,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Mesothelial,3387,1.87,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Pre-mesothelial,3387,24.24,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,17.88,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+ASPC,3399,17.48,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Mesothelial,3399,6.74,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Pre-mesothelial,3399,17.66,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,13.2,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+ASPC,3427,12.81,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Mesothelial,3427,8.66,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Pre-mesothelial,3427,39.59,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Adipocytes,3431,26.28,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+ASPC,3431,22.74,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Mesothelial,3431,4.6,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Pre-mesothelial,3431,18.11,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Adipocytes,4263,22.15,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+ASPC,4263,16.56,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+Mesothelial,4263,4.78,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+Pre-mesothelial,4263,34.56,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+Adipocytes,3382,32.85,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+ASPC,3382,21.38,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Adipocytes,3384,33.04,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+ASPC,3384,38.26,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Adipocytes,3387,36.33,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+ASPC,3387,22.78,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Adipocytes,3399,36.1,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+ASPC,3399,25.44,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Adipocytes,3427,23,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+ASPC,3427,29.03,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Adipocytes,1033,15.84,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+ASPC,1033,8.09,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Mesothelial,1033,10.82,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Pre-mesothelial,1033,18.27,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Adipocytes,1079,15.27,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+ASPC,1079,13.79,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Mesothelial,1079,5.41,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Pre-mesothelial,1079,27.25,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Adipocytes,1082,16.57,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+ASPC,1082,12.68,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Mesothelial,1082,7.68,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Pre-mesothelial,1082,28.67,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Adipocytes,1116,21.86,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+ASPC,1116,17.32,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Mesothelial,1116,6.06,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Pre-mesothelial,1116,26.81,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Adipocytes,1162,21.25,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+ASPC,1162,14.91,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Mesothelial,1162,5.82,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Pre-mesothelial,1162,22.47,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Adipocytes,1190,23.44,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+ASPC,1190,10.6,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Mesothelial,1190,11.85,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Pre-mesothelial,1190,19.21,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Adipocytes,1220,21.17,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+ASPC,1220,9.36,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Mesothelial,1220,16.55,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Pre-mesothelial,1220,20.85,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Adipocytes,1274,19.23,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+ASPC,1274,14.81,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Mesothelial,1274,4.51,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Pre-mesothelial,1274,39.06,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Adipocytes,1282,16.86,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+ASPC,1282,10.64,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Mesothelial,1282,13.48,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Pre-mesothelial,1282,27.25,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Adipocytes,1323,19.98,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+ASPC,1323,12.7,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Mesothelial,1323,6.84,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Pre-mesothelial,1323,29.79,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Adipocytes,1384,23.73,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+ASPC,1384,10.68,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Mesothelial,1384,7.58,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Pre-mesothelial,1384,17.21,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Adipocytes,1394,23.09,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+ASPC,1394,11.85,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Mesothelial,1394,7.43,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Pre-mesothelial,1394,24.16,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Adipocytes,1397,22.93,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+ASPC,1397,13.5,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Mesothelial,1397,4.82,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Pre-mesothelial,1397,24.42,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Adipocytes,1410,21.68,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+ASPC,1410,12.56,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Mesothelial,1410,5.45,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Pre-mesothelial,1410,22.7,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Adipocytes,1424,21.11,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+ASPC,1424,15.74,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Mesothelial,1424,4.05,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Pre-mesothelial,1424,40.74,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Adipocytes,1459,20.31,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+ASPC,1459,12.59,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Mesothelial,1459,11.46,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Pre-mesothelial,1459,18.78,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Adipocytes,1461,20.88,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+ASPC,1461,11.77,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Mesothelial,1461,9.18,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Pre-mesothelial,1461,18.32,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Adipocytes,1467,18.52,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+ASPC,1467,27.25,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Mesothelial,1467,1.91,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Pre-mesothelial,1467,33.27,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Adipocytes,1468,19.09,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+ASPC,1468,14.75,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Mesothelial,1468,6.3,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Pre-mesothelial,1468,26.65,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Adipocytes,1480,21.51,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+ASPC,1480,12.49,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Mesothelial,1480,6.07,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Pre-mesothelial,1480,33.56,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Adipocytes,1491,21.98,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+ASPC,1491,14.83,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Mesothelial,1491,6.68,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Pre-mesothelial,1491,21.1,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Adipocytes,1493,20.22,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+ASPC,1493,14.06,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Mesothelial,1493,8.03,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Pre-mesothelial,1493,18.39,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Adipocytes,1564,22.64,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+ASPC,1564,10.75,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Mesothelial,1564,9.8,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Pre-mesothelial,1564,26.04,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Adipocytes,1595,18.44,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+ASPC,1595,10.92,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Mesothelial,1595,10.31,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Pre-mesothelial,1595,25.2,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Adipocytes,1620,14.59,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+ASPC,1620,16.71,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Mesothelial,1620,5.59,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Pre-mesothelial,1620,31.96,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Adipocytes,1693,20.16,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+ASPC,1693,17.02,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Mesothelial,1693,5.06,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Pre-mesothelial,1693,32.07,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Adipocytes,1719,21.78,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+ASPC,1719,16.29,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Mesothelial,1719,5.7,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Pre-mesothelial,1719,24.08,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Adipocytes,1721,21.78,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+ASPC,1721,12.72,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Mesothelial,1721,5.41,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Pre-mesothelial,1721,26.59,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Adipocytes,1766,22.92,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+ASPC,1766,14.05,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Mesothelial,1766,6.73,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Pre-mesothelial,1766,29.14,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Adipocytes,1777,20.49,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+ASPC,1777,12.14,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Mesothelial,1777,7.23,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Pre-mesothelial,1777,21.83,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Adipocytes,1791,20.3,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+ASPC,1791,8.65,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Mesothelial,1791,8.63,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Pre-mesothelial,1791,27.94,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Adipocytes,1799,19.57,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+ASPC,1799,11.01,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Mesothelial,1799,9.12,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Pre-mesothelial,1799,23.15,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Adipocytes,1805,20.22,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+ASPC,1805,14.75,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Mesothelial,1805,4.97,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Pre-mesothelial,1805,27.67,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Adipocytes,1814,19.5,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+ASPC,1814,10.77,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Mesothelial,1814,8.24,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Pre-mesothelial,1814,29.21,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Adipocytes,1829,22.51,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+ASPC,1829,15.32,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Mesothelial,1829,5.99,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Pre-mesothelial,1829,30.61,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Adipocytes,1831,18.69,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+ASPC,1831,10.96,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Mesothelial,1831,14.08,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Pre-mesothelial,1831,27.68,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Adipocytes,1852,18.17,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+ASPC,1852,11.27,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Mesothelial,1852,5.97,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Pre-mesothelial,1852,32.81,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Adipocytes,1857,17.79,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+ASPC,1857,22.38,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Mesothelial,1857,2.96,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Pre-mesothelial,1857,35.48,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Adipocytes,1883,20.58,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+ASPC,1883,19.07,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Mesothelial,1883,8.12,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Pre-mesothelial,1883,23.63,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Adipocytes,1914,19.19,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+ASPC,1914,19.31,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Mesothelial,1914,6.07,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Pre-mesothelial,1914,27.4,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1930,14.65,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+ASPC,1930,27.93,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Mesothelial,1930,0.53,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Pre-mesothelial,1930,44.25,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1938,22.17,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+ASPC,1938,15.72,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Mesothelial,1938,5.27,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Pre-mesothelial,1938,30.46,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1940,23.81,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+ASPC,1940,15.95,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Mesothelial,1940,7.53,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Pre-mesothelial,1940,29.88,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1990,17.62,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+ASPC,1990,10.19,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Mesothelial,1990,7.12,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Pre-mesothelial,1990,35.08,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Adipocytes,1993,21.03,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+ASPC,1993,9.85,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Mesothelial,1993,11.97,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Pre-mesothelial,1993,22.13,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Adipocytes,2002,22.53,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+ASPC,2002,10.48,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Mesothelial,2002,10.29,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Pre-mesothelial,2002,28.21,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Adipocytes,230,24.25,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+ASPC,230,11.55,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Mesothelial,230,7.5,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Pre-mesothelial,230,23.47,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Adipocytes,2338,18.18,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+ASPC,2338,10.23,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Mesothelial,2338,7.6,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Pre-mesothelial,2338,26.66,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Adipocytes,2475,24.07,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+ASPC,2475,16.34,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Mesothelial,2475,11.01,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Pre-mesothelial,2475,22.92,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Adipocytes,2522,20.61,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+ASPC,2522,12.6,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Mesothelial,2522,6.05,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Pre-mesothelial,2522,20.8,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Adipocytes,2568,20.83,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+ASPC,2568,11.39,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Mesothelial,2568,7.86,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Pre-mesothelial,2568,24.93,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Adipocytes,2569,20.39,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+ASPC,2569,13.08,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Mesothelial,2569,5.57,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Pre-mesothelial,2569,19.21,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Adipocytes,2621,17.2,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+ASPC,2621,10.61,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Mesothelial,2621,6.84,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Pre-mesothelial,2621,30.49,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Adipocytes,2760,19.59,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+ASPC,2760,13.11,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Mesothelial,2760,4.71,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Pre-mesothelial,2760,28.33,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Adipocytes,2773,15.61,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+ASPC,2773,11.24,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Mesothelial,2773,9.82,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Pre-mesothelial,2773,28.9,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Adipocytes,278,23.18,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+ASPC,278,13.74,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Mesothelial,278,8.02,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Pre-mesothelial,278,17.1,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Adipocytes,349,26.37,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+ASPC,349,13.09,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Mesothelial,349,9.11,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Pre-mesothelial,349,27.38,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Adipocytes,351,20.15,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+ASPC,351,11.17,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Mesothelial,351,11.78,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Pre-mesothelial,351,24.42,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Adipocytes,368,21.34,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+ASPC,368,11.28,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Mesothelial,368,10.35,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Pre-mesothelial,368,21.04,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Adipocytes,458,24.05,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+ASPC,458,10.59,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Mesothelial,458,8.12,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Pre-mesothelial,458,23.02,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Adipocytes,461,16.37,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+ASPC,461,20.35,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Mesothelial,461,2.21,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Pre-mesothelial,461,36.91,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Adipocytes,519,22.25,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+ASPC,519,10.3,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Mesothelial,519,11.1,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Pre-mesothelial,519,21.93,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Adipocytes,615,18.74,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+ASPC,615,18.61,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Mesothelial,615,2.09,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Pre-mesothelial,615,38.82,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Adipocytes,675,21.71,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+ASPC,675,11.69,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Mesothelial,675,10.64,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Pre-mesothelial,675,19.78,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Adipocytes,685,21.15,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+ASPC,685,14.91,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Mesothelial,685,7,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Pre-mesothelial,685,21.33,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Adipocytes,695,22.9,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+ASPC,695,11.83,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Mesothelial,695,8.82,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Pre-mesothelial,695,20.47,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Adipocytes,713,19.61,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+ASPC,713,13.95,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Mesothelial,713,12.81,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Pre-mesothelial,713,19.29,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Adipocytes,739,18.21,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+ASPC,739,11.36,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Mesothelial,739,10.21,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Pre-mesothelial,739,26.03,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Adipocytes,810,20.54,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+ASPC,810,16.73,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Mesothelial,810,2.58,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Pre-mesothelial,810,40.09,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Adipocytes,811,18.39,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+ASPC,811,21.19,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Mesothelial,811,3.55,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Pre-mesothelial,811,39.38,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Adipocytes,909,20,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+ASPC,909,12.46,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Mesothelial,909,7.61,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Pre-mesothelial,909,23.85,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Adipocytes,949,20.47,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+ASPC,949,8.86,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Mesothelial,949,10.65,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Pre-mesothelial,949,26.72,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Adipocytes,991,22.35,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+ASPC,991,9.63,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Mesothelial,991,10.34,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Pre-mesothelial,991,18.5,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Adipocytes,1033,33.48,Deconvoluted subcutaneous,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+ASPC,1033,29.04,Deconvoluted subcutaneous,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Adipocytes,1079,24,Deconvoluted subcutaneous,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+ASPC,1079,19.29,Deconvoluted subcutaneous,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Adipocytes,1082,24.39,Deconvoluted subcutaneous,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+ASPC,1082,31.88,Deconvoluted subcutaneous,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Adipocytes,1116,64.09,Deconvoluted subcutaneous,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+ASPC,1116,9.8,Deconvoluted subcutaneous,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Adipocytes,1162,27.15,Deconvoluted subcutaneous,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+ASPC,1162,24.45,Deconvoluted subcutaneous,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Adipocytes,1190,26.81,Deconvoluted subcutaneous,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+ASPC,1190,27.34,Deconvoluted subcutaneous,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Adipocytes,1220,54.62,Deconvoluted subcutaneous,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+ASPC,1220,16.91,Deconvoluted subcutaneous,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Adipocytes,1274,59.49,Deconvoluted subcutaneous,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+ASPC,1274,11.62,Deconvoluted subcutaneous,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Adipocytes,1282,42.6,Deconvoluted subcutaneous,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+ASPC,1282,29.39,Deconvoluted subcutaneous,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Adipocytes,1323,33.8,Deconvoluted subcutaneous,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+ASPC,1323,23.65,Deconvoluted subcutaneous,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Adipocytes,1384,32.68,Deconvoluted subcutaneous,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+ASPC,1384,28.42,Deconvoluted subcutaneous,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Adipocytes,1394,47.27,Deconvoluted subcutaneous,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+ASPC,1394,21.63,Deconvoluted subcutaneous,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Adipocytes,1397,50.56,Deconvoluted subcutaneous,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+ASPC,1397,21.64,Deconvoluted subcutaneous,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Adipocytes,1410,27.58,Deconvoluted subcutaneous,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+ASPC,1410,27.45,Deconvoluted subcutaneous,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Adipocytes,1424,31.88,Deconvoluted subcutaneous,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+ASPC,1424,25.29,Deconvoluted subcutaneous,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Adipocytes,1459,45.34,Deconvoluted subcutaneous,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+ASPC,1459,25.21,Deconvoluted subcutaneous,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Adipocytes,1461,41.01,Deconvoluted subcutaneous,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+ASPC,1461,27.95,Deconvoluted subcutaneous,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Adipocytes,1467,35.19,Deconvoluted subcutaneous,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+ASPC,1467,36.18,Deconvoluted subcutaneous,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Adipocytes,1468,36.42,Deconvoluted subcutaneous,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+ASPC,1468,34.26,Deconvoluted subcutaneous,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Adipocytes,1480,32.58,Deconvoluted subcutaneous,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+ASPC,1480,36.4,Deconvoluted subcutaneous,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Adipocytes,1491,29.38,Deconvoluted subcutaneous,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+ASPC,1491,24.39,Deconvoluted subcutaneous,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Adipocytes,1493,32.23,Deconvoluted subcutaneous,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+ASPC,1493,23.48,Deconvoluted subcutaneous,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Adipocytes,1564,26.33,Deconvoluted subcutaneous,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+ASPC,1564,26.74,Deconvoluted subcutaneous,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Adipocytes,1595,61.47,Deconvoluted subcutaneous,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+ASPC,1595,13.28,Deconvoluted subcutaneous,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Adipocytes,1620,41.51,Deconvoluted subcutaneous,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+ASPC,1620,25.36,Deconvoluted subcutaneous,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Adipocytes,1693,50.01,Deconvoluted subcutaneous,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+ASPC,1693,15.92,Deconvoluted subcutaneous,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Adipocytes,1719,56.21,Deconvoluted subcutaneous,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+ASPC,1719,14.88,Deconvoluted subcutaneous,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Adipocytes,1721,49.66,Deconvoluted subcutaneous,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+ASPC,1721,23.92,Deconvoluted subcutaneous,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Adipocytes,1766,61.69,Deconvoluted subcutaneous,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+ASPC,1766,11.19,Deconvoluted subcutaneous,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Adipocytes,1777,46.44,Deconvoluted subcutaneous,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+ASPC,1777,26.79,Deconvoluted subcutaneous,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Adipocytes,1791,39.03,Deconvoluted subcutaneous,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+ASPC,1791,26.62,Deconvoluted subcutaneous,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Adipocytes,1799,29.52,Deconvoluted subcutaneous,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+ASPC,1799,30.83,Deconvoluted subcutaneous,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Adipocytes,1805,25.16,Deconvoluted subcutaneous,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+ASPC,1805,23.65,Deconvoluted subcutaneous,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Adipocytes,1814,38.1,Deconvoluted subcutaneous,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+ASPC,1814,29.08,Deconvoluted subcutaneous,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Adipocytes,1829,39.41,Deconvoluted subcutaneous,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+ASPC,1829,24.85,Deconvoluted subcutaneous,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Adipocytes,1831,45.75,Deconvoluted subcutaneous,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+ASPC,1831,19.42,Deconvoluted subcutaneous,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Adipocytes,1852,30.02,Deconvoluted subcutaneous,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+ASPC,1852,26.29,Deconvoluted subcutaneous,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Adipocytes,1857,59.16,Deconvoluted subcutaneous,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+ASPC,1857,13.07,Deconvoluted subcutaneous,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Adipocytes,1883,42.67,Deconvoluted subcutaneous,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+ASPC,1883,21.92,Deconvoluted subcutaneous,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Adipocytes,1914,60.68,Deconvoluted subcutaneous,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+ASPC,1914,12.17,Deconvoluted subcutaneous,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1930,65.39,Deconvoluted subcutaneous,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+ASPC,1930,8.85,Deconvoluted subcutaneous,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1938,46.5,Deconvoluted subcutaneous,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+ASPC,1938,26.64,Deconvoluted subcutaneous,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1940,38.12,Deconvoluted subcutaneous,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+ASPC,1940,33.59,Deconvoluted subcutaneous,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Adipocytes,1990,45.85,Deconvoluted subcutaneous,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+ASPC,1990,25.58,Deconvoluted subcutaneous,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Adipocytes,1993,39.85,Deconvoluted subcutaneous,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+ASPC,1993,30.74,Deconvoluted subcutaneous,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Adipocytes,2002,24.78,Deconvoluted subcutaneous,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+ASPC,2002,31.02,Deconvoluted subcutaneous,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Adipocytes,230,46.32,Deconvoluted subcutaneous,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+ASPC,230,22.47,Deconvoluted subcutaneous,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Adipocytes,2338,23.18,Deconvoluted subcutaneous,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+ASPC,2338,25.79,Deconvoluted subcutaneous,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Adipocytes,2475,26.32,Deconvoluted subcutaneous,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+ASPC,2475,27.54,Deconvoluted subcutaneous,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Adipocytes,2522,26.89,Deconvoluted subcutaneous,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+ASPC,2522,25.24,Deconvoluted subcutaneous,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Adipocytes,2568,23.21,Deconvoluted subcutaneous,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+ASPC,2568,25.54,Deconvoluted subcutaneous,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Adipocytes,2569,24.59,Deconvoluted subcutaneous,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+ASPC,2569,23.07,Deconvoluted subcutaneous,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Adipocytes,2621,24.82,Deconvoluted subcutaneous,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+ASPC,2621,23.38,Deconvoluted subcutaneous,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Adipocytes,2760,22.77,Deconvoluted subcutaneous,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+ASPC,2760,22.28,Deconvoluted subcutaneous,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Adipocytes,2773,37.08,Deconvoluted subcutaneous,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+ASPC,2773,25.52,Deconvoluted subcutaneous,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Adipocytes,278,45.31,Deconvoluted subcutaneous,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+ASPC,278,26.22,Deconvoluted subcutaneous,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Adipocytes,349,47.33,Deconvoluted subcutaneous,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+ASPC,349,23.01,Deconvoluted subcutaneous,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Adipocytes,351,56.98,Deconvoluted subcutaneous,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+ASPC,351,13.67,Deconvoluted subcutaneous,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Adipocytes,368,42.32,Deconvoluted subcutaneous,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+ASPC,368,27.56,Deconvoluted subcutaneous,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Adipocytes,458,23.87,Deconvoluted subcutaneous,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+ASPC,458,22.94,Deconvoluted subcutaneous,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Adipocytes,461,38.44,Deconvoluted subcutaneous,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+ASPC,461,20.73,Deconvoluted subcutaneous,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Adipocytes,519,32.75,Deconvoluted subcutaneous,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+ASPC,519,27.01,Deconvoluted subcutaneous,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Adipocytes,615,25.06,Deconvoluted subcutaneous,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+ASPC,615,22.34,Deconvoluted subcutaneous,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Adipocytes,675,42.6,Deconvoluted subcutaneous,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+ASPC,675,29.74,Deconvoluted subcutaneous,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Adipocytes,685,56.08,Deconvoluted subcutaneous,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+ASPC,685,12.94,Deconvoluted subcutaneous,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Adipocytes,695,41.62,Deconvoluted subcutaneous,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+ASPC,695,29.42,Deconvoluted subcutaneous,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Adipocytes,713,27.66,Deconvoluted subcutaneous,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+ASPC,713,31.27,Deconvoluted subcutaneous,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Adipocytes,739,23.8,Deconvoluted subcutaneous,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+ASPC,739,24.76,Deconvoluted subcutaneous,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Adipocytes,810,24,Deconvoluted subcutaneous,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+ASPC,810,25.63,Deconvoluted subcutaneous,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Adipocytes,811,54.82,Deconvoluted subcutaneous,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+ASPC,811,19.67,Deconvoluted subcutaneous,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Adipocytes,909,24.73,Deconvoluted subcutaneous,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+ASPC,909,23.61,Deconvoluted subcutaneous,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Adipocytes,949,43.95,Deconvoluted subcutaneous,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+ASPC,949,19.38,Deconvoluted subcutaneous,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Adipocytes,991,26.87,Deconvoluted subcutaneous,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+ASPC,991,25.68,Deconvoluted subcutaneous,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Endothelial comp,230,17.03,Deconvoluted subcutaneous,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Endothelial comp,230,12.09,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Endothelial comp,278,16.1,Deconvoluted subcutaneous,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Endothelial comp,278,13.49,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Endothelial comp,349,17.64,Deconvoluted subcutaneous,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Endothelial comp,349,8.58,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Endothelial comp,351,20.1,Deconvoluted subcutaneous,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Endothelial comp,351,12.05,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Endothelial comp,368,16.77,Deconvoluted subcutaneous,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Endothelial comp,368,13.34,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Endothelial comp,458,14.23,Deconvoluted subcutaneous,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Endothelial comp,458,14.46,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Endothelial comp,461,17.26,Deconvoluted subcutaneous,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Endothelial comp,461,10.24,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Endothelial comp,519,15.12,Deconvoluted subcutaneous,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Endothelial comp,519,13.03,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Endothelial comp,615,15.25,Deconvoluted subcutaneous,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Endothelial comp,615,9.2,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Endothelial comp,675,16.73,Deconvoluted subcutaneous,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Endothelial comp,675,13.29,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Endothelial comp,685,22.1,Deconvoluted subcutaneous,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Endothelial comp,685,12.76,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Endothelial comp,695,16.82,Deconvoluted subcutaneous,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Endothelial comp,695,13.17,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Endothelial comp,713,16.18,Deconvoluted subcutaneous,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Endothelial comp,713,13.04,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Endothelial comp,739,15.78,Deconvoluted subcutaneous,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Endothelial comp,739,13.74,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Endothelial comp,810,18.35,Deconvoluted subcutaneous,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Endothelial comp,810,7.94,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Endothelial comp,811,16.71,Deconvoluted subcutaneous,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Endothelial comp,811,7.11,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Endothelial comp,909,19.23,Deconvoluted subcutaneous,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Endothelial comp,909,13.1,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Endothelial comp,949,17.99,Deconvoluted subcutaneous,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Endothelial comp,949,13.09,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Endothelial comp,991,18.06,Deconvoluted subcutaneous,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Endothelial comp,991,13.7,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Endothelial comp,1033,18.26,Deconvoluted subcutaneous,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Endothelial comp,1033,14.33,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Endothelial comp,1079,16.17,Deconvoluted subcutaneous,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Endothelial comp,1079,13,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Endothelial comp,1082,12.27,Deconvoluted subcutaneous,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Endothelial comp,1082,12.33,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Endothelial comp,1116,18.72,Deconvoluted subcutaneous,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Endothelial comp,1116,11.72,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Endothelial comp,1162,17.18,Deconvoluted subcutaneous,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Endothelial comp,1162,14.38,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Endothelial comp,1190,14.48,Deconvoluted subcutaneous,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Endothelial comp,1190,13.54,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Endothelial comp,1220,18.87,Deconvoluted subcutaneous,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Endothelial comp,1220,11.85,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Endothelial comp,1274,21.25,Deconvoluted subcutaneous,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Endothelial comp,1274,9.37,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Endothelial comp,1282,16.77,Deconvoluted subcutaneous,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Endothelial comp,1282,12.47,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Endothelial comp,1323,17.37,Deconvoluted subcutaneous,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Endothelial comp,1323,12.6,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Endothelial comp,1384,16.66,Deconvoluted subcutaneous,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Endothelial comp,1384,13.74,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Endothelial comp,1394,19.84,Deconvoluted subcutaneous,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Endothelial comp,1394,13.32,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Endothelial comp,1397,16.52,Deconvoluted subcutaneous,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Endothelial comp,1397,12.13,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Endothelial comp,1410,19.02,Deconvoluted subcutaneous,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Endothelial comp,1410,16.13,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Endothelial comp,1424,17.76,Deconvoluted subcutaneous,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Endothelial comp,1424,7.46,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Endothelial comp,1459,16.4,Deconvoluted subcutaneous,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Endothelial comp,1459,13.58,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Endothelial comp,1461,18.66,Deconvoluted subcutaneous,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Endothelial comp,1461,12.77,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Endothelial comp,1467,13.65,Deconvoluted subcutaneous,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Endothelial comp,1467,7.59,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Endothelial comp,1468,15.59,Deconvoluted subcutaneous,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Endothelial comp,1468,12.15,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Endothelial comp,1480,14.09,Deconvoluted subcutaneous,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Endothelial comp,1480,9.88,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Endothelial comp,1491,21.17,Deconvoluted subcutaneous,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Endothelial comp,1491,14.22,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Endothelial comp,1493,21.3,Deconvoluted subcutaneous,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Endothelial comp,1493,15.91,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Endothelial comp,1564,15.81,Deconvoluted subcutaneous,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Endothelial comp,1564,10.69,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Endothelial comp,1595,17.38,Deconvoluted subcutaneous,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Endothelial comp,1595,13.01,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Endothelial comp,1620,17.8,Deconvoluted subcutaneous,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Endothelial comp,1620,11.04,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Endothelial comp,1693,18.27,Deconvoluted subcutaneous,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Endothelial comp,1693,10.51,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Endothelial comp,1719,20.04,Deconvoluted subcutaneous,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Endothelial comp,1719,13.64,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Endothelial comp,1721,13.48,Deconvoluted subcutaneous,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Endothelial comp,1721,12.64,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Endothelial comp,1766,18.92,Deconvoluted subcutaneous,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Endothelial comp,1766,11.22,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Endothelial comp,1777,14.89,Deconvoluted subcutaneous,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Endothelial comp,1777,15.57,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Endothelial comp,1791,16.78,Deconvoluted subcutaneous,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Endothelial comp,1791,14.66,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Endothelial comp,1799,13.75,Deconvoluted subcutaneous,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Endothelial comp,1799,15.96,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Endothelial comp,1805,19.03,Deconvoluted subcutaneous,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Endothelial comp,1805,14.69,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Endothelial comp,1814,14.85,Deconvoluted subcutaneous,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Endothelial comp,1814,13,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Endothelial comp,1829,15.87,Deconvoluted subcutaneous,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Endothelial comp,1829,9.31,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Endothelial comp,1831,18.11,Deconvoluted subcutaneous,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Endothelial comp,1831,10.31,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Endothelial comp,1852,16.2,Deconvoluted subcutaneous,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Endothelial comp,1852,13.1,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Endothelial comp,1857,18.83,Deconvoluted subcutaneous,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Endothelial comp,1857,8.89,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Endothelial comp,1883,19.66,Deconvoluted subcutaneous,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Endothelial comp,1883,9.36,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Endothelial comp,1914,19.19,Deconvoluted subcutaneous,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1914,10.8,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1930,18.43,Deconvoluted subcutaneous,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1930,5.58,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1938,15.92,Deconvoluted subcutaneous,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1938,9.87,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1940,15.14,Deconvoluted subcutaneous,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1940,7.83,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Endothelial comp,1990,17.26,Deconvoluted subcutaneous,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Endothelial comp,1990,12.57,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Endothelial comp,1993,17.35,Deconvoluted subcutaneous,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Endothelial comp,1993,13.8,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Endothelial comp,2002,17.44,Deconvoluted subcutaneous,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Endothelial comp,2002,12.15,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Endothelial comp,2338,13.78,Deconvoluted subcutaneous,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Endothelial comp,2338,15.16,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Endothelial comp,2475,14.4,Deconvoluted subcutaneous,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Endothelial comp,2475,8.48,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Endothelial comp,2522,13.95,Deconvoluted subcutaneous,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Endothelial comp,2522,16.96,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Endothelial comp,2568,14.81,Deconvoluted subcutaneous,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Endothelial comp,2568,13.55,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Endothelial comp,2569,16.67,Deconvoluted subcutaneous,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Endothelial comp,2569,16.03,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Endothelial comp,2621,12.91,Deconvoluted subcutaneous,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Endothelial comp,2621,14.19,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Endothelial comp,2760,14.53,Deconvoluted subcutaneous,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Endothelial comp,2760,14.57,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Endothelial comp,2773,15.93,Deconvoluted subcutaneous,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Endothelial comp,2773,12.9,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Endothelial comp,3313,7.25,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Endothelial comp,3350,12.94,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Endothelial comp,3357,4.72,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Endothelial comp,3382,12.14,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Endothelial comp,3382,11.47,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Endothelial comp,3384,10.76,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Endothelial comp,3384,6.24,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Endothelial comp,3387,18.43,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Endothelial comp,3387,14.34,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Endothelial comp,3399,11.75,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Endothelial comp,3399,14.66,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Endothelial comp,3427,13.74,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Endothelial comp,3427,10.23,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Endothelial comp,3431,12.87,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Endothelial comp,4263,9.65,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
+Immune comp,230,14.19,Deconvoluted subcutaneous,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Immune comp,230,21.15,Deconvoluted visceral,35,F,62.1,C,B,5.76,5.06,1.1,0.95,18,5.6,NA
+Immune comp,278,12.36,Deconvoluted subcutaneous,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Immune comp,278,24.45,Deconvoluted visceral,32,F,61.3,C,A,5.24,2.11,1.95,1.12,19.19,5.1,NA
+Immune comp,349,12.02,Deconvoluted subcutaneous,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Immune comp,349,15.46,Deconvoluted visceral,35,F,65,C,B,5.4,3.61,1.45,1.1,6.4,6.1,NA
+Immune comp,351,9.24,Deconvoluted subcutaneous,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Immune comp,351,20.43,Deconvoluted visceral,26,F,48,C,A,5.3,3.09,1.36,1.44,0.9,5.2,NA
+Immune comp,368,13.35,Deconvoluted subcutaneous,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Immune comp,368,22.64,Deconvoluted visceral,48,M,40,C,B,11.6,3.1,1.69,1.06,0.7,8.3,NA
+Immune comp,458,38.95,Deconvoluted subcutaneous,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Immune comp,458,19.77,Deconvoluted visceral,46,M,43.2,C,B,4.99,1.46,0.94,1.1,0.14,5.2,NA
+Immune comp,461,23.56,Deconvoluted subcutaneous,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Immune comp,461,13.92,Deconvoluted visceral,26,F,63.1,C,A,5.4,2.95,1.85,0.78,15.9,5.6,NA
+Immune comp,519,25.12,Deconvoluted subcutaneous,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Immune comp,519,21.39,Deconvoluted visceral,38,F,52.5,C,B,5.8,2.85,1.94,1.24,18.1,5.9,NA
+Immune comp,615,37.36,Deconvoluted subcutaneous,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Immune comp,615,12.52,Deconvoluted visceral,44,F,54.5,C,B,5.62,4.16,1.56,1.12,2.37,5.6,NA
+Immune comp,675,10.93,Deconvoluted subcutaneous,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Immune comp,675,22.89,Deconvoluted visceral,34,M,78.9,C,A,4.94,NA,1.5,NA,14,5,NA
+Immune comp,685,8.87,Deconvoluted subcutaneous,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Immune comp,685,22.85,Deconvoluted visceral,35,F,54.3,C,B,5.61,NA,2.73,NA,5,5.7,NA
+Immune comp,695,12.15,Deconvoluted subcutaneous,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Immune comp,695,22.81,Deconvoluted visceral,44,M,48,C,B,5.75,4.89,1.89,1.18,5.94,6.1,NA
+Immune comp,713,24.89,Deconvoluted subcutaneous,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Immune comp,713,21.3,Deconvoluted visceral,78,M,27.3,A,D,6.37,2.86,1.42,NA,6.74,4.9,NA
+Immune comp,739,35.67,Deconvoluted subcutaneous,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Immune comp,739,20.45,Deconvoluted visceral,43,F,48.9,C,B,6.68,NA,NA,NA,3.03,6.8,NA
+Immune comp,810,32.01,Deconvoluted subcutaneous,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Immune comp,810,12.11,Deconvoluted visceral,38,F,59.6,C,B,4.91,2.45,1.64,0.88,7.82,6.8,NA
+Immune comp,811,8.79,Deconvoluted subcutaneous,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Immune comp,811,10.39,Deconvoluted visceral,56,M,62.2,C,C,5.81,2.88,2.45,0.9,31.86,6.8,NA
+Immune comp,909,32.41,Deconvoluted subcutaneous,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Immune comp,909,22.99,Deconvoluted visceral,59,F,45.3,C,C,6.17,2.2,2.59,1.1,2.2,NA,NA
+Immune comp,949,18.68,Deconvoluted subcutaneous,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Immune comp,949,20.21,Deconvoluted visceral,61,F,43.4,C,C,5.94,3.08,0.98,0.84,4.16,6.2,NA
+Immune comp,991,29.41,Deconvoluted subcutaneous,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Immune comp,991,25.46,Deconvoluted visceral,42,F,66.6,C,B,NA,NA,NA,NA,69.31,NA,NA
+Immune comp,1033,19.21,Deconvoluted subcutaneous,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Immune comp,1033,32.65,Deconvoluted visceral,33,F,42.2,C,A,5.37,2.41,1.31,1.53,1.34,5.5,NA
+Immune comp,1079,40.55,Deconvoluted subcutaneous,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Immune comp,1079,25.27,Deconvoluted visceral,47,F,47.9,C,B,6.77,NA,1.42,NA,4,NA,NA
+Immune comp,1082,31.47,Deconvoluted subcutaneous,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Immune comp,1082,22.06,Deconvoluted visceral,47,M,56,C,B,24.92,NA,3.94,NA,3,NA,NA
+Immune comp,1116,7.39,Deconvoluted subcutaneous,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Immune comp,1116,16.24,Deconvoluted visceral,48,F,50.4,C,B,16.6,NA,NA,NA,32.7,NA,NA
+Immune comp,1162,31.21,Deconvoluted subcutaneous,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Immune comp,1162,21.17,Deconvoluted visceral,46,F,45.5,C,B,5.94,3.21,1.18,1.04,5.16,6,NA
+Immune comp,1190,31.35,Deconvoluted subcutaneous,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Immune comp,1190,21.35,Deconvoluted visceral,41,M,53.7,C,B,5.34,3.51,1.24,1.05,3.29,5.9,NA
+Immune comp,1220,9.62,Deconvoluted subcutaneous,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Immune comp,1220,20.2,Deconvoluted visceral,36,M,69.8,C,B,4.72,3.46,2.05,0.84,15.31,NA,NA
+Immune comp,1274,7.64,Deconvoluted subcutaneous,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Immune comp,1274,13.01,Deconvoluted visceral,42,M,56.6,C,B,5.34,5.13,1.22,1.07,1.15,5.3,NA
+Immune comp,1282,11.24,Deconvoluted subcutaneous,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Immune comp,1282,19.3,Deconvoluted visceral,36,M,47.7,C,B,5.43,4.43,1.86,1.37,3.19,5.2,NA
+Immune comp,1323,25.18,Deconvoluted subcutaneous,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Immune comp,1323,18.07,Deconvoluted visceral,25,F,56.5,C,A,4.1,NA,NA,NA,17,NA,NA
+Immune comp,1384,22.23,Deconvoluted subcutaneous,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Immune comp,1384,27.06,Deconvoluted visceral,53,F,64,C,C,7.27,3.52,1.84,1.14,16,NA,NA
+Immune comp,1394,11.27,Deconvoluted subcutaneous,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Immune comp,1394,20.15,Deconvoluted visceral,45,F,61.7,C,B,5.33,3.22,1.63,0.94,0.88,5.9,NA
+Immune comp,1397,11.28,Deconvoluted subcutaneous,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Immune comp,1397,22.21,Deconvoluted visceral,54,F,85.5,C,C,3.66,NA,NA,NA,15,NA,NA
+Immune comp,1410,25.95,Deconvoluted subcutaneous,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Immune comp,1410,21.5,Deconvoluted visceral,41,M,58,C,B,5.55,2.85,0.67,0.83,11,NA,NA
+Immune comp,1424,25.08,Deconvoluted subcutaneous,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Immune comp,1424,10.9,Deconvoluted visceral,43,F,46.8,C,B,5.29,2.51,1.84,1.32,1.65,5.8,NA
+Immune comp,1459,13.06,Deconvoluted subcutaneous,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Immune comp,1459,23.27,Deconvoluted visceral,47,M,51.3,C,B,5.53,2.33,1.93,0.94,3.65,5.7,NA
+Immune comp,1461,12.38,Deconvoluted subcutaneous,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Immune comp,1461,27.06,Deconvoluted visceral,60,M,51,C,C,NA,2.3,3.49,0.7,7.3,NA,NA
+Immune comp,1467,14.99,Deconvoluted subcutaneous,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Immune comp,1467,11.45,Deconvoluted visceral,59,F,47.5,C,C,6.34,NA,NA,NA,4.3,NA,NA
+Immune comp,1468,13.72,Deconvoluted subcutaneous,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Immune comp,1468,21.06,Deconvoluted visceral,46,F,57.4,C,B,5.16,3.34,1.23,1.06,4.38,6,NA
+Immune comp,1480,16.94,Deconvoluted subcutaneous,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Immune comp,1480,16.49,Deconvoluted visceral,46,M,59.3,C,B,5.73,2.61,1.35,0.62,2.72,6.2,NA
+Immune comp,1491,25.07,Deconvoluted subcutaneous,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Immune comp,1491,21.17,Deconvoluted visceral,42,F,53.9,C,B,5.81,2.29,1.44,0.59,2.84,5.5,NA
+Immune comp,1493,22.98,Deconvoluted subcutaneous,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Immune comp,1493,23.38,Deconvoluted visceral,35,F,43.5,C,B,5.94,2.94,1.28,0.94,4.11,5.8,NA
+Immune comp,1564,31.13,Deconvoluted subcutaneous,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Immune comp,1564,20.09,Deconvoluted visceral,52,M,49,C,C,6.93,3.09,3.48,0.94,3.34,NA,NA
+Immune comp,1595,7.89,Deconvoluted subcutaneous,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Immune comp,1595,22.13,Deconvoluted visceral,56,F,48.9,C,C,4.87,3.45,1.68,0.73,9.15,5.67,NA
+Immune comp,1620,15.33,Deconvoluted subcutaneous,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Immune comp,1620,20.12,Deconvoluted visceral,28,F,55.1,C,A,5.2,1.52,0.96,0.86,22.62,6.63,NA
+Immune comp,1693,15.8,Deconvoluted subcutaneous,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Immune comp,1693,15.2,Deconvoluted visceral,46,F,50,C,B,5.94,NA,NA,NA,2.1,NA,NA
+Immune comp,1719,8.86,Deconvoluted subcutaneous,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Immune comp,1719,18.52,Deconvoluted visceral,27,F,57.2,C,A,5.22,2.07,0.9,1.09,0.9,NA,NA
+Immune comp,1721,12.95,Deconvoluted subcutaneous,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Immune comp,1721,20.87,Deconvoluted visceral,32,F,66.3,C,A,6.72,NA,NA,NA,1.7,NA,NA
+Immune comp,1766,8.2,Deconvoluted subcutaneous,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Immune comp,1766,15.94,Deconvoluted visceral,31,F,50.8,C,A,NA,NA,NA,NA,10.1,NA,NA
+Immune comp,1777,11.89,Deconvoluted subcutaneous,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Immune comp,1777,22.73,Deconvoluted visceral,62,F,62.5,C,C,5.7,NA,NA,NA,16.5,NA,NA
+Immune comp,1791,17.57,Deconvoluted subcutaneous,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Immune comp,1791,19.83,Deconvoluted visceral,49,F,40.9,C,B,5.1,NA,NA,NA,17.9,NA,NA
+Immune comp,1799,25.91,Deconvoluted subcutaneous,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Immune comp,1799,21.19,Deconvoluted visceral,48,M,52.2,C,B,9.92,NA,NA,NA,5.2,NA,NA
+Immune comp,1805,32.17,Deconvoluted subcutaneous,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Immune comp,1805,17.71,Deconvoluted visceral,48,F,64.1,C,B,6.61,NA,NA,NA,27.6,6.72,NA
+Immune comp,1814,17.97,Deconvoluted subcutaneous,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Immune comp,1814,19.29,Deconvoluted visceral,41,M,56.7,C,B,NA,NA,NA,NA,12.9,NA,NA
+Immune comp,1829,19.88,Deconvoluted subcutaneous,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Immune comp,1829,16.25,Deconvoluted visceral,43,F,43.5,C,B,5.37,NA,NA,NA,30.8,NA,NA
+Immune comp,1831,16.71,Deconvoluted subcutaneous,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Immune comp,1831,18.29,Deconvoluted visceral,48,F,52.9,C,B,7.05,NA,NA,NA,13,NA,NA
+Immune comp,1852,27.5,Deconvoluted subcutaneous,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Immune comp,1852,18.68,Deconvoluted visceral,36,F,43.6,C,B,5.75,NA,NA,NA,11.3,5.73,NA
+Immune comp,1857,8.95,Deconvoluted subcutaneous,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Immune comp,1857,12.5,Deconvoluted visceral,59,F,47.6,C,C,4.93,1.51,1.73,0.61,7.13,5.27,NA
+Immune comp,1883,15.74,Deconvoluted subcutaneous,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Immune comp,1883,19.24,Deconvoluted visceral,56,F,42.2,C,C,6.34,3.44,1.49,0.88,12.59,6.2,NA
+Immune comp,1914,7.97,Deconvoluted subcutaneous,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1914,17.24,Deconvoluted visceral,37,M,47.8,C,B,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1930,7.32,Deconvoluted subcutaneous,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1930,7.06,Deconvoluted visceral,49,F,47.4,C,B,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1938,10.93,Deconvoluted subcutaneous,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1938,16.51,Deconvoluted visceral,58,F,51.5,C,C,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1940,13.14,Deconvoluted subcutaneous,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1940,15.01,Deconvoluted visceral,59,F,50.3,C,C,NA,NA,NA,NA,NA,NA,NA
+Immune comp,1990,11.3,Deconvoluted subcutaneous,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Immune comp,1990,17.43,Deconvoluted visceral,48,F,49.8,C,B,NA,4.5,2.77,1.1,7.7,7.7,NA
+Immune comp,1993,12.06,Deconvoluted subcutaneous,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Immune comp,1993,21.22,Deconvoluted visceral,48,M,41.2,C,B,5.53,2.35,1.14,1.37,3.16,5.1,NA
+Immune comp,2002,26.78,Deconvoluted subcutaneous,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Immune comp,2002,16.35,Deconvoluted visceral,54,M,57.5,C,C,6,NA,1.19,0.7,17.1,5.6,NA
+Immune comp,2338,37.26,Deconvoluted subcutaneous,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Immune comp,2338,22.17,Deconvoluted visceral,45,F,59,C,B,5.6,NA,1.27,NA,32.2,5.61,NA
+Immune comp,2475,31.75,Deconvoluted subcutaneous,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Immune comp,2475,17.18,Deconvoluted visceral,39,M,64.4,C,B,5.07,NA,NA,NA,19.65,6.02,NA
+Immune comp,2522,33.91,Deconvoluted subcutaneous,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Immune comp,2522,22.98,Deconvoluted visceral,31,F,62.5,C,A,5.38,2.2,0.87,1.24,10,NA,NA
+Immune comp,2568,36.45,Deconvoluted subcutaneous,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Immune comp,2568,21.44,Deconvoluted visceral,46,F,49.1,C,B,6.89,2.98,2.2,1.86,14.8,NA,NA
+Immune comp,2569,35.67,Deconvoluted subcutaneous,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Immune comp,2569,25.73,Deconvoluted visceral,39,F,74.8,C,B,9.76,2.66,3.66,1.25,28.38,8.36,NA
+Immune comp,2621,38.87,Deconvoluted subcutaneous,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Immune comp,2621,20.66,Deconvoluted visceral,53,M,49.3,C,C,7.74,4.23,4.3,0.79,11.61,7.45,NA
+Immune comp,2760,40.43,Deconvoluted subcutaneous,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Immune comp,2760,19.69,Deconvoluted visceral,38,F,38.8,B,B,5.51,NA,NA,NA,1.8,NA,NA
+Immune comp,2773,21.46,Deconvoluted subcutaneous,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Immune comp,2773,21.52,Deconvoluted visceral,40,M,39.8,B,B,7.71,NA,3.42,0.88,3.3,NA,NA
+Immune comp,3313,12.9,Visceral,39.1,M,46,C,B,124,56,114,38,1.47,5.4,79
+Immune comp,3350,37.06,Visceral,28.6,F,28.5,A,A,98,117,110,42,1.4,5.1,60
+Immune comp,3357,27.94,Visceral,29.3,F,39.2,B,A,101,64,193,52,2.41,5.3,74
+Immune comp,3382,33.64,Subcutaneous,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Immune comp,3382,8.73,Visceral,41.8,F,41,C,B,86,89,131,NA,0.46,5.4,87
+Immune comp,3384,17.94,Subcutaneous,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Immune comp,3384,13.53,Visceral,33.7,M,34.5,B,A,78,119,181,48,0.64,5.5,61
+Immune comp,3387,22.44,Subcutaneous,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Immune comp,3387,11.7,Visceral,34.3,F,40.9,C,A,103,99,69,42,0.97,5.8,80
+Immune comp,3399,26.71,Subcutaneous,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Immune comp,3399,25.6,Visceral,33.5,F,36.2,B,A,135,28,179,38,0.38,6.2,88
+Immune comp,3427,34.22,Subcutaneous,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Immune comp,3427,15.51,Visceral,24.5,M,44.1,C,A,90,102,65,54,0.45,5.8,95
+Immune comp,3431,15.38,Visceral,48.6,F,35.7,B,B,106,56,195,48,0.9,6.7,70
+Immune comp,4263,12.3,Visceral,53.4,F,23.8,A,C,NA,NA,NA,NA,0.6,5.27,NA
