@@ -15,15 +15,14 @@ Results are found in their respective "Figure X" folder.
 The main code was written in R. It includes data processing, quality control, clustering and annotating the code file are under the "main_analysis" folder with the description of the files. 
 
 #### Figures
-Data to generate each panel is deposited on CELLxGENE if it requires the seurat/cellchat objects, and relevant CSV files are inside the figure's folder.
-Plots were generated as part of the pipeline via R.
+The data used to generate each panel is available on CELLxGENE, and the corresponding source files can be found within the figure's folder.
 
 # Figures and Scripts Overview
 
 | **Figure**               | **Panel**    | **Scripts**                                                                                  |
 |---------------------------|--------------|---------------------------------------------------------------------------------------------|
 | **Main_figs_info**        |              | `Main_figs.info.R` (includes necessary libraries, Seurat objects)                           |
-| **Figure1** - Single-nuclei atlases of human subcutaneous (hSAT) and visceral (hVAT) adipose tissues | A-D          | `Fig1.R`                                                                                     |
+| **Figure1**               | A-D          | `Fig1.R`                                                                                     |
 | **Figure2**               | All          | `Fig2.R`                                                                                   |
 | **Figure3**               | All          | `GSEA_enrichment.R` → `gsea_color_new.py` → `Fig3.R`                                       |
 | **Figure4**               | All          | `Fig4.R`                                                                                   |
